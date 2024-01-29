@@ -2,8 +2,8 @@ h2{
   text-align: center;
 }
 
-#setting{
-  margin: 0 auto;
+form{
+  margin: 10px auto;
   border: none;
   border-radius: 10px;
   background-color: #E5E1DA;
@@ -37,3 +37,5 @@ h2{
   border: 2px solid #eee;
   border-radius: 5px;
 }
+
+
