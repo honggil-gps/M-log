@@ -1,14 +1,18 @@
-hr{
+#container hr{
   width: 160px;
 }
 
-.caption>p{
+#container p{
   font-size: 12px;
 }
 
 .prod-list {
   list-style:none;
   padding:0;
+  /* 가로스크롤 */
+  display:flex;
+  background: #E5E1DA;
+  overflow-x: scroll;
 }
 .prod-list li {
   float: left;
@@ -16,6 +20,13 @@ hr{
   margin: 10px;
   overflow: hidden;
   position: relative;
+  /* 가로스크롤 */
+  margin-left: 8px;
+  -webkit-box-flex: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
 }
 .prod-list img {
   width: 180px;
@@ -44,4 +55,9 @@ hr{
 .prod-list .caption h3, .prod-list .caption p {
   color: #fff;
   text-align: center;
-}      
+}
+
+/* 스크롤바 숨기기(모바일용에서만 좋을 듯해서 일단 주석처리합니다) */
+/* .prod-list::-webkit-scrollbar{
+  display:none;
+} */
