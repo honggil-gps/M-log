@@ -1,5 +1,9 @@
 hr{
-  width: 180px;
+  width: 160px;
+}
+
+p{
+  font-size: 12px;
 }
 
 .prod-list {
@@ -14,8 +18,8 @@ hr{
   position: relative;
 }
 .prod-list img {
-  width: 200px;
-  height: 300px;
+  width: 180px;
+  height: 260px;
   margin:0;
   padding:0;
   float:left;
@@ -25,8 +29,8 @@ hr{
 .prod-list .caption {
   position: absolute;
   right: 20px; /* 기준 위치보다 20px 왼쪽으로  */
-  width:200px;
-  height:300px;
+  width:180px;
+  height:260px;
   padding-top:20px;
   background:rgba(0,0,0,0.6);  /* 반투명한 검정 배경 */ 
   opacity:0;  /* 화면에 보이지 않게 */ 
@@ -37,7 +41,7 @@ hr{
   opacity: 1;  /* 설명글이 화면에 보이게 */ 
   transform: translateX(20px);  /* 설명글이 위로 200px 이동하게 */
 }  
-.prod-list .caption h2, .prod-list .caption p {
+.prod-list .caption h3, .prod-list .caption p {
   color: #fff;
   text-align: center;
 }      
