@@ -29,9 +29,9 @@
   transform: translateY(-50%);
   background-color: rgb(101, 98, 96);
   opacity: 0.25;
-} */
+}
 
-/* .navbar:last-child::after{
+.navbar:last-child::after{
   display: none;
 } */
 

@@ -2,7 +2,7 @@ hr{
   width: 160px;
 }
 
-p{
+.caption>p{
   font-size: 12px;
 }
 
