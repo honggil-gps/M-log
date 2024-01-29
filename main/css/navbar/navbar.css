@@ -7,18 +7,38 @@
   border-radius: 5px;
   justify-content: space-between;
 }
-
 .navbar{
-  border-radius: 5px;
-  padding: 5px 5px;
-  margin:10px auto;
+  padding: 5px 10px 5px 10px;
+  margin:5px;
   width: 65px;
-  background-color: #FBF9F1;
   text-align: center;
 }
 
+/* .navbar::after{
+  content: "";
+  width: 1.5px;
+  height: 45px;
+  position: absolute;
+  top: 50%;
+  right: -15px;
+  transform: translateY(-50%);
+  background-color: rgb(101, 98, 96);
+  opacity: 0.25;
+}
+
+.navbar:last-child::after{
+  display: none;
+} */
+
+#navbarimg{
+  width: 20px;
+  filter: opacity(0.5) drop-shadow(0 0 0 #E5E1DA);
+}
+
+
 .navbar>a{
-  color: black;
+  color: rgb(101, 98, 96);
   text-decoration-line: none;
+  font-size: 12px;
 }
 /* navbar css */

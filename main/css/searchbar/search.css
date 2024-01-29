@@ -1,0 +1,46 @@
+#search{ 
+    display: flex;
+    max-width: 100%;
+    background-color: none;
+    border: none;
+    border-radius: 5px;
+    justify-content: center;
+    width:100%;
+}
+
+#search_text{
+    border: 1px solid rgb(170, 215, 217);
+    border-radius: 0.5rem;
+    display: flex;
+    width: 50%;
+}
+
+#search_img{
+    border: 0.1rem solid rgb(170, 215, 217);
+    border-radius: 0.5rem;
+    border-style: solid;
+    max-height: fit-content;
+    width: 20px;
+    filter: opacity(0.5) drop-shadow(0 0 0 #E5E1DA);
+    background-color: rgb(170, 215, 217);
+}
+
+/* @media screen and (max-width : 450px) {
+    #search{ 
+
+        display: flex;
+        max-width: 100%;
+        background-color: none;
+        border: none;
+        border-radius: 5px;
+        justify-content: center;
+        width:100%;
+    }
+    #search_text{
+        border: 1px solid rgb(170, 215, 217);
+        border-radius: 0.5rem;
+        display: flex;
+        width: 70%;
+    }
+    
+} */
