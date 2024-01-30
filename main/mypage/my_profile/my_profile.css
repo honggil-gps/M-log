@@ -46,14 +46,13 @@ h2{
   text-align: center;
 }
 #review > h4{
-  margin: 0px;
+  margin: 10px 0px;
   text-align: left;
   display: inline-block;
 }
 #review > p{
   display: inline-block;
   float: right;
-  margin:2px;
   font-size: small;
   text-align: right;
 }
