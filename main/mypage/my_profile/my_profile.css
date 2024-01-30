@@ -38,4 +38,16 @@ form{
   border-radius: 5px;
 }
 
+h3{
+  margin: 10px auto;
+  padding: 10px;
+  text-align:left;
+  position: static;
+}
+
+.card_position{
+  margin: 10px auto;
+  padding: 0px;
+  position: relative;
+}
 
