@@ -13,7 +13,6 @@
   display:flex;
   background: #E5E1DA;
   overflow-x: scroll;
-  border-radius: 10px;
 }
 .prod-list li {
   float: left;
