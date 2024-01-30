@@ -8,6 +8,7 @@ h2{
   display: inline-block;
   float: left;
   padding: 0px 10px 0px 0px;
+  color: black;
 }
 #setting{
   margin: 10px auto;
