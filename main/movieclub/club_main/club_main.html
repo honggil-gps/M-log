@@ -4,16 +4,52 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/main/css/club_main.css">
-  <link rel="stylesheet" href="/main/css/searchbar/search.css">
+  <link rel="stylesheet" href="/main/css/header/header.css">
+  <!-- <link rel="stylesheet" href="/main/css/searchbar/search.css"> -->
+  <script src="https://kit.fontawesome.com/91fdc56c72.js" crossorigin="anonymous"></script>
   <title>Document</title>
 </head>
 <body>
-  <p>무비클럽</p>
+  <!-- 로고 -->
+  <header>
+    <div id = "head_logo">
+      <!-- <img src="img/logo.png" id ="head_img"> -->
+    </div>
+    <div>
+      <a class="back" href="../my_profile/my_profile.html"><i id="title" class="fas fa-angle-left"> 무비클럽</i></a>
+      <!-- <img src="../../css/header/img/noticebell_colorchanged.png" id = "notecebell" class = "head_img"> -->
+    </div>
+    </header>
+  <br><br><br>
+
+  <!-- 검색창 -->
   <form>
     <div id = "search">
-        <input type="text" id ="search_text" placeholder = "무엇을 검색할까요?">
+        <input type="text" id ="search_text" placeholder = "  무엇을 검색할까요?">
         <input type="image" src = "/main/css/searchbar/img/search.png" id="search_img">
+        <input type="image" src = "./img/club_main01.png" id="search_img">
     </div>
   </form>
+
+  <!-- 나의 무비클럽 -->
+  <p id="subtitle">나의 무비클럽</p>
+  <div id="mymovie"></div>
+
+  <!-- 무비클럽 관리 리스트 -->
+  <div id="list">
+    <p id="listtext">무비클럽 목록 관리</p>
+    <hr id="listhr">
+    <p id="listtext">나의 무비클럽 이력보기</p>
+    <hr id="listhr">
+    <p id="listtext">무비클럽 운영 가이드</p>
+  </div>
+
+  <!-- 평론가 칼럼 -->
+  <p id="subtitle">평론가 칼럼</p>
+  <div id="criticgrid">
+    <div id="critic"></div>
+    <div id="critic"></div>
+    <div id="critic"></div>
+  </div>
 </body>
 </html>
