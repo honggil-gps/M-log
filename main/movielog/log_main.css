@@ -1,0 +1,22 @@
+body{
+  background-color: #FBF9F1;
+}
+.hashtags{
+  display:flex;
+  flex-wrap: wrap;
+  margin: 10px auto;
+  padding: 10px;
+  max-width: 80%;
+  border-radius: 10px;
+  border: 2px solid rgb(59, 108, 125);
+}
+
+.hashtags a{
+  color: white;
+  margin: 3px;
+  padding: 4px;
+  text-decoration-line: none;
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(59, 108, 125);
+}
