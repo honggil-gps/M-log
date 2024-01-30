@@ -1,7 +1,14 @@
 h2{
-  text-align: center;
+  text-align: left;
 }
-
+.back{
+  text-decoration-line:none ;
+  font-weight:bold;
+  font-size: large;
+  display: inline-block;
+  float: left;
+  padding: 0 10px;
+}
 #setting{
   margin: 10px auto;
   border: none;
