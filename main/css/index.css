@@ -1,0 +1,108 @@
+body{
+	line-height: 1.6
+}
+.tab{
+	width: 430px;
+	margin: 0 auto;
+}
+
+ul.prod-list{
+  margin: 0 auto;
+}
+
+ul.tabs{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+ul.tabs li{
+	background: none;
+	color: #222;
+	display: inline-block;
+	padding: 10px 30px;
+	cursor: pointer;
+}
+
+ul.tabs li.current{
+	background: #e5e1da;
+	color: #222;
+  border-radius: 2% 2% 0% 0%;
+}
+
+#menutitle{
+  font-weight: 900;
+}
+
+.tab-content{
+	display: none;
+	background: #ededed;
+	padding: 0px 0px;
+}
+
+.tab-content.current{
+	display: inherit;
+}
+
+#adtab{
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+}
+
+#ad1, #ad2{
+  width: 203px;
+  height: 150px;
+  background-color: #ededed;
+  /* margin: 15px 10px 10px 0px; */
+  border-radius: 2%;
+}
+
+#adimg1, #adimg2{
+  width: 204px;
+  height: 150px;
+  margin: 10px 0px 5px 0px;
+  border-radius: 2%;
+  opacity: 0.8;
+  filter: brightness(50%);
+}
+
+.adtab {
+  position: relative;
+}
+
+.adtext1 {
+  font-size: 18px;
+  position: absolute;
+  text-align: center;
+  top: 70px;
+  left: 100px;
+  transform: translate( -50%, -50% );
+  color: white;
+}
+
+.adtext2 {
+  font-size: 18px;
+  position: absolute;
+  top: 70px;
+  left: 310px;
+  transform: translate( -50%, -50% );
+  color: white;
+}
+
+#adimg3{
+  width: 413px;
+  height: 150px;
+  background-color: #ededed;
+  margin: 0px 15px 20px 0px;
+  border-radius: 2%;
+  opacity: 0.8;
+  filter: brightness(50%);
+}
+
+.adtext3 {
+  font-size: 18px;
+  position: absolute;
+  top: 650px;
+  left: 220px;
+  transform: translate( -50%, -50% );
+  color: white;
+}
