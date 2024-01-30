@@ -15,12 +15,14 @@
     display: inline-block;
     float: left;
     padding: 0px 10px 0px 0px;
-    color: black;
+    color: rgb(101, 98, 96);
     margin-top :0;
     }
 .menuname{
+    font-weight: bold;
     font-size: x-large;
     display: inline;
+    color: rgb(101, 98, 96);
 }
 .head_img{
         margin: auto;
