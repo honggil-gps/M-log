@@ -1,0 +1,30 @@
+#head_logo{
+    justify-content: center;
+    margin:auto;
+    width: 212.5px;
+    margin-bottom: 2vh;
+    text-align: center;
+    height: 48px;
+    background-image: url("../header/img/logo.png");
+    background-size: 100%;
+}
+.back{
+    text-decoration-line:none ;
+    font-weight:bold;
+    font-size: x-large;
+    display: inline-block;
+    float: left;
+    padding: 0px 10px 0px 0px;
+    color: black;
+    margin-top :0;
+    }
+.menuname{
+    font-size: x-large;
+    display: inline;
+}
+.head_img{
+        margin: auto;
+        float:right;
+        width : 20px;
+        height: 100;
+    }

@@ -1,0 +1,65 @@
+
+/* YJ(양지은) login css 시작 */
+/* login 코드 전 구역  */
+#login{
+display: grid;
+grid-template-areas: 
+"a"
+"a"
+"a"
+"a";
+grid-gap: 30px;
+text-align: center;
+margin: -10px;
+background-color: #FBF9F1;
+
+}
+/* m-log 제목 스타일 */
+.login_title{
+    margin: 20px auto;
+  font-size: 30px;
+  font-weight: bold;
+}
+/* ID,비밀번호 스타일 */
+.login_input{
+    width: 220px;
+    padding: 7px 7px;
+    display: flex;
+    margin: -10px auto;
+    border-radius: 5px;
+    border: 2px solid #e5e1Da;
+}
+/* 카카오,네이버, 구글 아이콘 이미지  */
+img{
+    width:40px;
+    height: 40px;
+}
+/* 로그인, 회원가입 버튼 */
+.login_butt{
+border: 1px solid #e5e1Da;
+width: 220px;
+background-color: #AAD7D9;
+text-align: center;
+border-radius: 7px;
+font-size: 15px;
+color: white;
+font-weight: bold;
+padding: 8px 8px ;
+margin: 5px auto;
+}
+/* 버튼 밑줄  */
+#butt_line{
+text-decoration: none;
+}
+/* 카카오,네이버, 구글 스타일 */
+#login_other{
+display: flex;
+justify-content: center;
+grid-gap: 50px;
+border-radius: 5px;
+}
+/* 아이콘 그림 둥글게 */
+.login_other{
+border-radius: 35%;
+}
+/* YJ(양지은) login css 끝 */

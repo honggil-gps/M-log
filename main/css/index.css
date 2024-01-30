@@ -1,4 +1,5 @@
 body{
+
   width: 430px;
 	line-height: 1.6;
   background-color: #fbf9f1;
@@ -21,11 +22,13 @@ body{
 .tab{
 	width: 412px;
 	margin: 0px;
+
 }
 
 ul.prod-list{
   margin: 0 auto;
   padding: 0px;
+
 }
 
 ul.tabs{
