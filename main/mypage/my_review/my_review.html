@@ -28,7 +28,7 @@
         <ul class="prod-list">
           <li>
             <img src="../my_review/img/review01.jpg">
-            <div class="caption">
+            <div class="caption openModal1">
               <h3>엑시트</h3>
               <hr>
               <p>시청일자: 2024. 1. 4</p>
@@ -37,7 +37,7 @@
     
           <li>
             <img src="../my_review/img/review02.jpg">
-            <div class="caption">
+            <div class="caption openModal2">
               <h3>인셉션</h3>
               <hr>
               <p>시청일자: 2023. 9. 21</p>
@@ -46,7 +46,7 @@
     
           <li>
             <img src="../my_review/img/review03.jpg">
-            <div class="caption">
+            <div class="caption openModal3">
               <h3>매트릭스</h3>
               <hr>
               <p>시청일자: 2023. 7. 12</p>
@@ -55,7 +55,7 @@
 
           <li>
             <img src="../my_review/img/review04.jpg">
-            <div class="caption">
+            <div class="caption openModal4">
               <h3>아바타</h3>
               <hr>
               <p>시청일자: 2022. 12. 30</p>
@@ -65,5 +65,15 @@
       </div>
     </form>
   </main>
+  <div class="modal">
+    <div class="modal_body">
+        <button class="closeModal">&times;</button>
+        <h5></h5>
+        <textarea name="review" cols="35" rows="18" placeholder="리뷰를 작성하세요"></textarea>
+        <button class="reviewbtn1">임시저장</button>
+        <button class="reviewbtn2">저장하기</button>
+    </div>
+</div>
+  <script src="review_write.js"></script>
 </body>
 </html>
