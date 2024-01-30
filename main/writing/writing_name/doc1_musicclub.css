@@ -31,12 +31,10 @@
     border-radius: 100%;
     
     }
-
 .user_profile{
     padding: 10px;
     text-align: left;
 }
-
 #setting > button{
     padding:3px 10px;
     position:absolute;
@@ -46,12 +44,38 @@
     border: 2px solid #eee;
     border-radius: 5px;
 }
-
-.main_contents{
+.main_contents {
     border-radius: 10px;
     border: 2px solid rgba(101, 98, 96, 0.5);
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     min-height: 80vh;
     max-height: 90vh;
     max-width: 100%;
+}
+.contents_body{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-color : white;
+    text-align: center ;
+}
+.contents_img{
+    margin: 1rem;
+    display:inline-flex ;
+    height: 30vw;
+    width: 30vw;
+    text-align: center;
+    background-size:cover ; 
+}
+.contents_header{
+    background-color : white;
+    text-align: center ;
+}
+.center_aligned{
+    text-align: center;
+}
+.left_aligned{
+    text-align: left;
+}
+.bold_text{
+    font-weight: bolder;
 }
