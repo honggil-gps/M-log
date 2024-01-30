@@ -28,7 +28,7 @@
     overflow: hidden;
     text-overflow: ellipsis;
     word-break: break-all;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
 }
 #hothashtags_contents{
