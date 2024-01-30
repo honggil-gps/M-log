@@ -1,0 +1,73 @@
+
+/* YJ(양지은)_회원가입 전체 구역  */
+#signin{
+    display: grid;
+    grid-template-areas: 
+    "a"
+    "a"
+    "a"
+    ;
+    grid-gap: 30px;
+    text-align: center;
+    margin: -10px;
+    background-color: #FBF9F1;
+    
+    }
+    /* 회원가입 제목 */
+.signin_title{
+        margin: 20px auto;
+      font-size: 30px;
+      font-weight: bold;
+      width: 240px;
+      height: 70px;
+    }
+/* 중복확인 버튼 스타일  */
+.signin_button{
+    background-color: #AAD7D9;
+    font-size: 11px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid #FBF9F1;
+    color: white;
+    padding: 9px 8px;
+}
+  /* 로그인, 비밀번호, 이메일 스타일  */
+    .signin_input{
+        width: 220px;
+        padding: 7px 7px;
+        display: flex;
+        margin: -10px auto;
+        border-radius: 5px;
+        border: 2px solid #e5e1Da;
+    }
+    /* 아이디 입력칸 스타일 */
+    .signin_iD_input{
+        width: 155px;
+        padding: 7px 7px;
+        border: 2px solid #e5e1Da;
+        border-radius: 5px;
+        margin-right: -6px;
+    }
+    /* 비밀번호 입력칸 스타일 */
+    .signin_PW_input{
+    width: 220px;
+    padding: 7px 7px;
+    border: 2px solid #e5e1Da;
+    border-radius: 5px;
+     
+}
+/* 회원가입 버튼 */
+    .signin_butt{
+    border: 1px solid #e5e1Da;
+    width: 240px;
+    background-color: #AAD7D9;
+    text-align: center;
+    border-radius: 7px;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    padding: 8px 8px ;
+    margin: 5px auto;
+    }
+
+  

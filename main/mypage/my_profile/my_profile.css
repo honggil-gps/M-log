@@ -1,5 +1,8 @@
-h2{
-  text-align: left;
+*{
+  color: rgb(101, 98, 96);
+}
+body{
+  background-color: #FBF9F1;
 }
 .back{
   text-decoration-line:none ;
@@ -40,9 +43,11 @@ h2{
   position:absolute;
   top: 10px;
   right: 5px;
-  background-color: white;
-  border: 2px solid #eee;
+  background-color: rgb(101, 98, 96);
+  border: none;
   border-radius: 5px;
+  color: white;
+  font-weight: bold;
 }
 
 .form{
@@ -65,9 +70,60 @@ h2{
   text-align: right;
 }
 #review button{
-  background-color: white;
-  border: 2px solid #eee;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(101, 98, 96);
+  border: none;
   border-radius: 5px;
   width: 50%;
   height: 40px;
 }
+
+.modal{
+  position:absolute;
+  display:none;
+  justify-content: center;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color: rgba(0,0,0,0.4);
+}
+.modal_body{
+  position:absolute;
+  top:50%;
+  width:250px;
+  height:400px; 
+  padding:40px;  
+  text-align: center;
+  background-color: rgb(255,255,255); 
+  border-radius:10px; 
+  box-shadow:0 2px 3px 0 rgba(34,36,38,0.15); 
+  transform:translateY(-50%);
+  z-index: 10;
+}
+.modal h5{
+  margin: 30px 0px 15px 3px;
+  padding: 0px;
+  text-align: left;
+}
+
+.closeModal{
+  font-size: large;
+  display: inline-block;
+  float: right;
+  border:none;
+  background-color: white;
+}
+
+.reviewbtn1, .reviewbtn2{
+  border: 1px solid #e5e1Da;
+  background-color: #AAD7D9;
+  text-align: center;
+  border-radius: 7px;
+  color: white;
+  font-weight: bold;
+  padding: 8px 8px ;
+  margin: 10px 5px auto;
+}
+
