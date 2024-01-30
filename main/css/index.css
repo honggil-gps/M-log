@@ -1,13 +1,31 @@
 body{
-	line-height: 1.6
+  width: 430px;
+	line-height: 1.6;
+  background-color: #fbf9f1;
+  
+}
+
+#all{
+ position: relative;
+}
+
+#container{
+  margin: 0 auto;
+  padding: 0 auto;
+
+}
+
+.tab, .prod-list{
+  box-sizing: border-box;
 }
 .tab{
-	/* width: 430px; */
-	margin: 0 auto;
+	width: 412px;
+	margin: 0px;
 }
 
 ul.prod-list{
   margin: 0 auto;
+  padding: 0px;
 }
 
 ul.tabs{
