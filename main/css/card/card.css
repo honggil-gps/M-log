@@ -1,18 +1,29 @@
+<<<<<<< HEAD
+hr{
+  width: 160px;
+}
+
+p{
+=======
 #container hr{
   width: 160px;
 }
 
 #container p{
+>>>>>>> 1f426f3496d30c3135ce19a2e24dcc8df4118948
   font-size: 12px;
 }
 
 .prod-list {
   list-style:none;
   padding:0;
+<<<<<<< HEAD
+=======
   /* 가로스크롤 */
   display:flex;
   background: #E5E1DA;
   overflow-x: scroll;
+>>>>>>> 1f426f3496d30c3135ce19a2e24dcc8df4118948
 }
 .prod-list li {
   float: left;
@@ -20,6 +31,8 @@
   margin: 10px;
   overflow: hidden;
   position: relative;
+<<<<<<< HEAD
+=======
   /* 가로스크롤 */
   margin-left: 8px;
   -webkit-box-flex: 0;
@@ -27,6 +40,7 @@
   flex-grow: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
+>>>>>>> 1f426f3496d30c3135ce19a2e24dcc8df4118948
 }
 .prod-list img {
   width: 180px;
@@ -55,9 +69,13 @@
 .prod-list .caption h3, .prod-list .caption p {
   color: #fff;
   text-align: center;
+<<<<<<< HEAD
+}      
+=======
 }
 
 /* 스크롤바 숨기기(모바일용에서만 좋을 듯해서 일단 주석처리합니다) */
 /* .prod-list::-webkit-scrollbar{
   display:none;
 } */
+>>>>>>> 1f426f3496d30c3135ce19a2e24dcc8df4118948
