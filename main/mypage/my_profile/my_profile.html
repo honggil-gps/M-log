@@ -8,18 +8,20 @@
   <link rel="stylesheet" href="my_profile.css">
   <link rel="stylesheet" href="../../css/card/card.css">
   <link rel="stylesheet" href="../../css/header/header.css">
+  <link rel="stylesheet" href="../../css/navbar/navbar.css">
 </head>
 <body>
   <header>
-    <div id = "head_logo">
-      <!-- <img src="img/logo.png" id ="head_img"> -->
-    </div>
-    <div>
-      <p class="menuname">내 정보</p>
-      <img src="../../css/header/img/noticebell_colorchanged.png" id = "notecebell" class = "head_img">
+    <div style="float: left;" id = "head_logo"></div>
+    <div ><img src="../../css/header/img/noticebell_colorchanged.png" id = "notecebell" class = "head_img"></div>
     </div>
   </header>
   <main>
+    <div><!-- 임시 공백 -->
+      <p>-</p>
+      <p>-</p>
+      <p>-</p>
+    </div>
     <form id="setting"> <!--프로필설정-->
       <div class="user_img"><i class="fa-solid fa-user fa-3x" style="background-color: #eee;"></i></div>
       <div class="user_profile"><p><b>닉네임</b></p><p style="color: #666666;">팔로워 0 팔로잉 0</p></div>
@@ -123,7 +125,7 @@
       </div>
     </form>
   </main>
-  <footer>
+  <footer id="navbar">
     <iframe src="../../css/navbar/navbar.html" frameborder="0" target="_parent" width="100%"></iframe>
   </footer>
 </body>

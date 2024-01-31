@@ -127,3 +127,23 @@ body{
   margin: 10px 5px auto;
 }
 
+header{
+  position: fixed;
+  top: 10px;
+  left: 0px;
+  width: 430px;
+  height: 60px;
+  margin: 0px;
+  background-color: white;
+  z-index: 2;
+}
+
+
+footer{
+  position: fixed;
+  top: 70px;
+  left: 0px;
+  width: 430px;
+  height: 80px;
+  margin: 0px;
+}
