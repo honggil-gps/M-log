@@ -204,23 +204,31 @@ form{
   grid-template-columns: repeat(3, auto);
 }
 
+/* #headerbg{
+  width: 430px;
+  height: 30px;
+  margin: 0;
+  background-color: white;
+} */
+
 header{
   position: fixed;
   top: 10px;
   left: 0px;
   width: 430px;
-  height: 67px;
-  margin: 0px;
+  height: 66px;
+  margin-top: -10px;
   background-color: white;
   z-index: 2;
+  padding-top: 2cqh;
 }
 
 
 footer{
   position: fixed;
   top: 70px;
-  left: 0px;
-  width: 430px;
+  left: -10px;
+  width: 440px;
   height: 80px;
   margin: 0px;
   padding: 0px;
