@@ -49,22 +49,20 @@
   text-decoration-line: none;
   border: 1.5px solid #434a63;
   border-radius: 15px;
-
+  font-size: small;
 }
 
 /* 리뷰보러가기 */
 #picword_part{
-  border: 2px solid #E5E1DA;
+  border-bottom: 2px solid #E5E1DA;
   font-size: 7px;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 70%;
-  min-width: 220px;
-  max-width: 380px;
-  height:70px;
+  width: 80%;
+  height:120px;
   grid-gap: 70px;
-  border-radius: 8px;
+  /* border-radius: 8px; */
   margin: 0px auto;
   margin-bottom: 10px;
   line-height: 12px;
@@ -72,34 +70,51 @@
   position: relative;
   }
 
-  .picword_date{
+  .picword_text{
+    line-height: 1.5;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* 보여질 라인 수 */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    width: 50%;
     position:absolute;
-    top: 60%;
-    left: 35%;
+    top: 35%;
+    left: 5%;
     font-size: x-small;
   }
   /* picword 영화 제목 */
   .picword_title{
-    position:absolute;
-    top: 30%;
-    left: 35%;
     font-weight: bold;
+    position:absolute;
+    top: 15%;
+    left: 5%;
+    /* font-weight: bold; */
     font-size: small;
   }
   
+  .picword_comment{
+    position:absolute;
+    bottom: 20%;
+    left: 5%;
+    /* font-weight: bold; */
+    font-size: x-small;
+  }
   #picword_part > div > img{
     position: absolute;
     top:10%;
-    left: 10%;
-    width: 50px;
-    border-radius: 5px;
+    right: 5%;
   }
 
-  .picword_icon{
-    width: 30px;
-    height: 30px; 
-    margin: 3px;
-    position: absolute;
-    top: 25%;
-    right: 5%;
+  .crop-img {
+    width: 110px; /* 원하는 가로 크기 */
+    height: 110px; /* 원하는 세로 크기 */
+    object-fit: cover; /* 이미지를 잘라서 비율을 유지하면서 채우기 */
+  }
+
+  #picword_part:hover > div > .picword_title{
+    text-decoration: underline;
+  }
+
+  #picword_part:hover{
+    cursor: pointer;
   }
