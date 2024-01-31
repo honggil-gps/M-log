@@ -6,9 +6,9 @@
   <title>MovieLog</title>
   <link rel="stylesheet" href="../css/card/card.css">
   <link rel="stylesheet" href="../css/header/header.css">
-  <link rel="stylesheet" href="../css/picword/picword.css">
   <link rel="stylesheet" href="../css/searchbar/search.css">
   <link rel="stylesheet" href="log_main.css">
+  <link rel="stylesheet" href="../mypage/my_profile/my_profile.css">
 </head>
 <body>
   <header>
@@ -43,34 +43,65 @@
     <form>
       <div id="picword">
         <div id="picword_part">
-            <img src="../css/picword/img/picword01.png" alt="" >
-                <div class="picword_content">
-                    <div class="picword_title">인셉션</div>
-                    <div class="picword_date">시청 날짜 - 2024.01.29</div>
-          </div>    
+          <div>
+            <img src="../mypage/my_review/img/review01.jpg" alt="" >
+            <div class="picword_title">엑시트</div>
+            <div class="picword_date">시청 날짜 - 2024.01.04</div>
+          </div>  
           <!-- picword 아이콘  -->
           <a href="#">
-            <img class=picword_icon src="../css/picword/img/picword02.png">
+            <img class="picword_icon openModal1" src="../css/picword/img/picword02.png">
           </a>
+        </div>
     </div>
-    </form>
-    <form>
       <div id="picword">
         <div id="picword_part">
-            <img src="../css/picword/img/picword01.png" alt="" >
-                <div class="picword_content">
-                    <div class="picword_title">인셉션</div>
-                    <div class="picword_date">시청 날짜 - 2024.01.29</div>
-          </div>    
+            <div>
+              <img src="../mypage/my_review/img/review02.jpg" alt="" >
+              <div class="picword_title">인셉션</div>
+              <div class="picword_date">시청 날짜 - 2023.09.21</div>
+            </div>  
           <!-- picword 아이콘  -->
           <a href="#">
-            <img class=picword_icon src="../css/picword/img/picword02.png">
+            <img class="picword_icon openModal2" src="../css/picword/img/picword02.png">
           </a>
     </div>
+    <div id="picword">
+      <div id="picword_part">
+        <div>
+          <img src="../mypage/my_review/img/review03.jpg" alt="" >
+          <div class="picword_title">매트릭스</div>
+          <div class="picword_date">시청 날짜 - 2023.07.12</div>
+        </div>  
+        <!-- picword 아이콘  -->
+        <a href="#">
+          <img class="picword_icon openModal3" src="../css/picword/img/picword02.png">
+        </a>
+      </div>
+  </div>
+    <div id="picword">
+      <div id="picword_part">
+          <div>
+            <img src="../mypage/my_review/img/review04.jpg" alt="" >
+            <div class="picword_title">아바타</div>
+            <div class="picword_date">시청 날짜 - 2022.12.30</div>
+          </div>  
+        <!-- picword 아이콘  -->
+        <a href="#">
+          <img class="picword_icon openModal4" src="../css/picword/img/picword02.png">
+        </a>
+  </div>
     </form>
+      <iframe src="../css/navbar/navbar.html" frameborder="0" target="_parent" width="100%"></iframe>
   </main>
-  <footer>
-    <iframe src="../css/navbar/navbar.html" frameborder="0" target="_parent" width="100%"></iframe>
-  </footer>
+  <div class="modal">
+    <div class="modal_body">
+        <button class="closeModal">&times;</button>
+        <h5></h5>
+        <textarea name="review" cols="35" rows="18" placeholder="리뷰를 작성하세요"></textarea>
+        <button class="reviewbtn1">임시저장</button>
+        <button class="reviewbtn2">저장하기</button>
+    </div>
+  <script src="../mypage/my_review/review_write.js"></script>
 </body>
 </html>
