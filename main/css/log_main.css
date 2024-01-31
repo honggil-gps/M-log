@@ -1,3 +1,4 @@
+/* 검색창 슬라이드 */
 #search{ 
   display: flex;
   margin-top: 10px;
@@ -20,15 +21,7 @@
   font-size: 15px;
   font-weight: 700;
 }
-.hashtags{
-  display:flex;
-  flex-wrap: wrap;
-  margin: 10px auto;
-  padding: 10px;
-  max-width: 60%;
-  border-radius: 10px;
-  border: 2px solid rgb(59, 108, 125);
-}
+
 #search_img{
   border: 0.1rem solid #434a63;
   border-radius: 0.5rem;
@@ -43,37 +36,42 @@
   transform: scaleX(-1); transition: .3s;
 }
 
+/* 해시태그 */
+.hashtags{
+  display:flex;
+  flex-wrap: wrap;
+  margin: 6px auto;
+}
 .hashtags a{
-  color: white;
+  color: #434a63;
   margin: 3px;
   padding: 4px;
   text-decoration-line: none;
-  border: none;
+  border: 1.5px solid #434a63;
   border-radius: 15px;
-  background-color: rgb(59, 108, 125);
+
 }
 
-/* picword 파일 시작 */
-/* picword 보더 구역 */
+/* 리뷰보러가기 */
 #picword_part{
   border: 2px solid #E5E1DA;
   font-size: 7px;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 70%; /* width 수정-YW */
+  width: 70%;
   min-width: 220px;
   max-width: 380px;
   height:70px;
   grid-gap: 70px;
   border-radius: 8px;
   margin: 0px auto;
-  margin-bottom: 10px; /* 아래 마진 수정 -YW */
+  margin-bottom: 10px;
   line-height: 12px;
-  padding: 10px;/* 수정-YW */
+  padding: 10px;
   position: relative;
   }
-  /* picword 시청 날짜 */
+
   .picword_date{
     position:absolute;
     top: 60%;
@@ -86,19 +84,17 @@
     top: 30%;
     left: 35%;
     font-weight: bold;
-    font-size: small; /* 크기 조금 키웠어요-YW */
+    font-size: small;
   }
   
-  /* picword 영화 이미지 크기 조정 */
   #picword_part > div > img{
     position: absolute;
     top:10%;
     left: 10%;
-    width: 50px; /* 페이지 사이즈에 맞게 조정-YW */
-    /* height: 25px; 비율깨져서 조정-YW*/
+    width: 50px;
     border-radius: 5px;
   }
-  /* picword_아이콘 */
+
   .picword_icon{
     width: 30px;
     height: 30px; 
@@ -107,5 +103,3 @@
     top: 25%;
     right: 5%;
   }
-  /* picword 파일 끝 */
-  
