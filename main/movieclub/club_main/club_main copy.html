@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/main/css/club_main copy.css">
+  <link rel="stylesheet" href="/main/css/header/header copy.css">
+  <link rel="stylesheet" href="/main/css/card/card.css">
+  <!-- <link rel="stylesheet" href="/main/css/searchbar/search.css"> -->
+  <script src="https://kit.fontawesome.com/91fdc56c72.js" crossorigin="anonymous"></script>
+  <title>Document</title>
+</head>
+<body>
+  <!-- 로고 -->
+  <header>
+    <div style="float: left;" id = "head_logo"></div>
+    <div ><img src="../../css/header/img/noticebell_colorchanged.png" id = "notecebell" class = "head_img"></div>
+  </header>
+  <br><br><br>
+
+  <!-- 검색창 -->
+  <form>
+    <div id = "search">
+        <input type="text" id ="search_text" placeholder = "  무엇을 검색할까요?">
+        <input type="image" src = "./img/club_main01.png" id="search_img">
+        <input type="image" src = "./img/club_main02.png" id="search_img">
+    </div>
+  </form>
+
+  <!-- 나의 무비클럽 -->
+  <p id="subtitle">나의 무비클럽 <b style="color: rgb(94, 122, 155);">4</b></p>
+  <!-- <div id="mymovie"></div> -->
+  <div id="container" class="mymovie">
+		<ul id="prod-list" class="prod-list">
+      <li class="club-wrap">
+        <div class="club-image"><img src="img/club01.jpg"></div>
+        <div class="club-text">
+          <p id="group">👥 72/80</p>
+          <b><p id="ct1" style="font-size: 17px;">귀로 듣는 영화</p></b><br>
+          <p>음악을 듣기위해 영화보는 사람들의 공간</p>
+          <p>좋았던 영화음악을 공유해주세요 ♪ ♫</p>
+        </div>
+      </li>
+
+      <li class="club-wrap">
+        <div class="club-image"><img src="img/club02.jpg"></div>
+        <div class="club-text">
+          <p id="group">👥 24/30</p>
+          <b><p id="ct1" style="font-size: 17px;">SF 영화 속 과학기술을 찾아서</p></b><br>
+          <p>sf영화와 과학을 좋아하는 사람은 누구나 OK</p>
+          <p>매달 1일 새로운 SF 영화를 소개합니다.</p>
+        </div>
+      </li>
+
+      <li class="club-wrap">
+        <div class="club-image"><img src="img/club03.jpg"></div>
+        <div class="club-text">
+          <p id="group">👥 7/15</p>
+          <b><p id="ct1" style="font-size: 17px;">내가 사랑한 겨울영화</p></b><br>
+          <p>추운 겨울 이불 속에서 보기 좋은 영화들</p>
+          <p>봄이 오기 전까지만 운영해요 ☃️</p>
+        </div>
+      </li>
+
+      <li class="club-wrap">
+        <div class="club-image"><img src="img/club04.jpg"></div>
+        <div class="club-text">
+          <p id="group">👥 37/60</p>
+          <b><p id="ct1" style="font-size: 17px;">빌런이 좋아</p></b><br>
+          <p>영화 속 빌런을 좋아하는 사람들의 모임</p>
+          <p>빌런의 숨겨진 매력을 함께 찾아보아요(۶•̀ᴗ•́)۶</p>
+        </div>
+      </li>
+    </ul>
+	</div>
+
+  <!-- 무비클럽 관리 리스트 -->
+  <div id="list">
+    <div id="list01"><p id="listtext">무비클럽 목록 관리</p><i id="listgo1" class="fas fa-angle-right"></i></div>
+    <hr id="listhr">
+    <div id="list01"><p id="listtext">나의 무비클럽 이력 보기</p><i id="listgo2" class="fas fa-angle-right"></i></div>
+    <hr id="listhr">
+    <div id="list01"><p id="listtext">무비클럽 운영가이드</p><i id="listgo3" class="fas fa-angle-right"></i></div>
+  </div>
+  <br>
+
+<!-- 평론가 칼럼 -->
+
+<p id="subtitle">평론가의 칼럼을 읽어보세요 📖✍🏻</p>
+<div id="criticgrid">
+  <div id="critic"><img id="critic" src="img/critic01.jpg" alt=""><p id="cirtictext">[비평] 거장의 어깨 옆에서, ‘마에스트로 번스타인’</p></div>
+  <div id="critic"><img id="critic" src="img/critic02.jpg" alt=""><p id="cirtictext">[비평] 마음의 재난에서 벗어난 풍성한 삶, <괴물></p></div>
+  <div id="critic"><img id="critic" src="img/critic03.jpg" alt=""><p id="cirtictext">[비평] 미야자키 하야오의 우정, 그리고 식탁의 소멸에 관하여</p></div>
+</div>
+<br><br><br>
+<hr>
+
+  <!-- 친구들이 많이 보고있는 영화 -->
+  <p id="subtitle">친구들이 많이 보고있는 영화 🎬</p>
+  <div id="criticgrid">
+    <div id="critic"><img id="critic" src="img/mvlist01.jpg" alt=""><p id="cirtictext">디즈니 100주년 기념작 "위시"</p></div>
+    <div id="critic"><img id="critic" src="img/mvlist02.jpg" alt=""><p id="cirtictext">고레에다 히로카즈 감독 신작 "괴물"</p></div>
+    <div id="critic"><img id="critic" src="img/mvlist03.jpg" alt=""><p id="cirtictext">완전히 새로운 세계관, 스토리 "상견니"</p></div>
+  </div>
+  <br><br><br>
+
+  <footer id="navbar">
+    <iframe src="../../css/navbar/navbar copy.html" frameborder="0" target="_parent" width="100%"></iframe>
+  </footer>
+</body>
+</html>

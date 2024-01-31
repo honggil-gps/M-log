@@ -1,0 +1,187 @@
+body{
+  width: 430px;
+	line-height: 1.6;
+}
+
+
+#video{
+  width: 430px;
+  margin-top: 20%;
+  filter: brightness(50%);
+}
+
+.video_text { 
+  position: absolute; 
+  top: 30%; 
+  left: 3%;
+  width: 100%; 
+}
+
+#vt1{
+  font-size: 18px; 
+  color: #ffffff;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+#vt2{
+  font-size: 12px; 
+  color: #ffffff;
+  font-weight: 500;
+}
+
+body{
+  margin: 0;
+}
+
+#all{
+ position: relative;
+}
+
+#container{
+  margin: 0 auto;
+  padding: 0 auto;
+
+}
+
+.tab, .prod-list{
+  box-sizing: border-box;
+}
+
+.tab{
+	width: 430px;
+
+}
+
+ul.prod-list{
+  margin: 0px 0px 5px 0px;
+  padding: 0px;
+
+}
+
+ul.tabs{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+ul.tabs li{
+	background: none;
+	color: #222;
+	display: inline-block;
+	padding: 10px 30px;
+	cursor: pointer;
+}
+
+ul.tabs li.current{
+	background: #848794;
+	color: #fff;
+  border-radius: 2% 2% 0% 0%;
+}
+
+#menutitle{
+  font-weight: 900;
+}
+
+.tab-content{
+	display: none;
+	background: #434a63;
+	padding: 0px 0px;
+}
+
+.tab-content.current{
+	display: inherit;
+}
+
+#adtab{
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+}
+
+#ad1, #ad2{
+  width: 203px;
+  height: 150px;
+  background-color: #ededed;
+  /* margin: 15px 10px 10px 0px; */
+  border-radius: 2%;
+}
+
+#adimg1{
+  width: 204px;
+  height: 150px;
+  margin: 10px 0px 5px 6px;
+  border-radius: 2%;
+  opacity: 0.8;
+  filter: brightness(50%);
+}
+
+#adimg2{
+  width: 204px;
+  height: 150px;
+  margin: 10px 0px 5px 0px;
+  border-radius: 2%;
+  opacity: 0.8;
+  filter: brightness(50%);
+}
+
+.adtab {
+  position: relative;
+}
+
+.adtext1 {
+  font-size: 18px;
+  position: absolute;
+  text-align: center;
+  top: 70px;
+  left: 100px;
+  transform: translate( -50%, -50% );
+  color: white;
+}
+
+.adtext2 {
+  font-size: 18px;
+  position: absolute;
+  top: 70px;
+  left: 310px;
+  transform: translate( -50%, -50% );
+  color: white;
+}
+
+#adimg3{
+  width: 413px;
+  height: 150px;
+  background-color: #ededed;
+  margin: 0px 15px 20px 6px;
+  border-radius: 2%;
+  opacity: 0.8;
+  filter: brightness(50%);
+}
+
+.adtext3 {
+  font-size: 18px;
+  position: absolute;
+  top: 910px;
+  left: 50%;
+  transform: translate( -50%, -50% );
+  color: white;
+}
+
+header{
+  position: fixed;
+  top: 10px;
+  left: 0px;
+  width: 430px;
+  height: 60px;
+  margin: 0px;
+  background-color: white;
+  z-index: 2;
+}
+
+
+footer{
+  position: fixed;
+  top: 70px;
+  left: 0px;
+  width: 430px;
+  height: 80px;
+  margin: 0px;
+}

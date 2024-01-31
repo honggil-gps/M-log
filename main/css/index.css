@@ -10,6 +10,32 @@ body{
  position: relative;
 }
 
+#video{
+  width: 415px;
+  margin-top: 1%;
+  filter: brightness(50%);
+}
+
+.video_text { 
+  position: absolute; 
+  top: 28%; 
+  left: 3%;
+  width: 100%; 
+}
+
+#vt1{
+  font-size: 18px; 
+  color: #ffffff;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+#vt2{
+  font-size: 12px; 
+  color: #ffffff;
+  font-weight: 500;
+}
+
 #container{
   margin: 0 auto;
   padding: 0 auto;
@@ -126,4 +152,13 @@ ul.tabs li.current{
   left: 220px;
   transform: translate( -50%, -50% );
   color: white;
+}
+
+footer{
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 430px;
+  height: 81px;
+  margin: 0px;
 }
