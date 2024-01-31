@@ -1,0 +1,217 @@
+body{
+
+    background-color: #fbf9f1;
+}
+
+#club_name{
+
+    display: grid;
+    grid-gap: 27px;
+    grid-template-areas: 
+    "a"
+    "b"
+    "c"
+    "d"
+    "e"
+    "f";
+    padding: 10px 10px;
+}
+
+/* 상단 무비클럽 로고 */
+.club_name_img{
+ 
+    width: 40%;
+    margin: 5px auto;
+}
+
+
+
+
+
+
+
+
+/* 클럽 이름 칸 */
+.club_name_1{
+    padding: 10px 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    border: 2px solid #E5E1DA;
+    background-color: white;
+ 
+}
+/* 클럽 네임 위의 아이콘 연속 두개 스타일,배치 (종 2개) */
+.club_name_1_icon{
+float: right;
+
+}
+/* 공개/비공개/멤버수 글자 스타일, 배치 */
+.club_name_1_infor{
+float: right;
+font-size: 11px;
+}
+/* 무비클럽 메인 (과학기술) 글자 스타일, 배치 */
+.club_name_title{
+position: relative;
+top: 15px;
+font-size: 20px;
+font-weight: bold;
+
+}
+
+
+
+
+
+
+/* 클럽 공지칸 */
+.club_name_2{
+   padding: 10px 17px;
+    border: 1px solid black;
+    border-radius: 25px;
+    border: 2px solid #E5E1DA;
+    background-color: white;
+}
+/* 클럽 공지 글자와 아이콘 스타일,배치 */
+.club_name_2_infor{
+font-weight: bold;
+
+}
+.club_name_down{
+font-size: 13px;
+}
+.proce{
+font-size: 8px;
+position: relative;
+top: -2px;
+border: 1px solid red;
+border-radius: 5px;
+padding: 2px 2px;
+}
+
+
+
+
+
+/* 검색창 */
+.club_name_3{
+    border: 1px solid black;
+    padding: 15px 15px;
+    border-radius: 25px;
+    border: 2px solid #E5E1DA;
+    background-color: white;
+}
+
+#club_name_search{ 
+    display: flex;
+    max-width: 100%;
+    background-color: none;
+    border: none;
+    border-radius: 5px;
+    justify-content: center;
+    width:100%;
+}
+/* 검색창 입력 부분 */
+#club_name_search_text{
+    border: 1px solid rgb(170, 215, 217);
+    border-radius: 0.5rem;
+    display: flex;
+    width: 80%;
+}
+/* 검색창 그림 */
+#club_name_search_img{
+    border: 0.1rem solid rgb(170, 215, 217);
+    border-radius: 0.5rem;
+    border-style: solid;
+    max-height: fit-content;
+    width: 20px;
+    filter: opacity(0.5) drop-shadow(0 0 0 #E5E1DA);
+    background-color: rgb(170, 215, 217);
+}
+/* 검색창 버튼 */
+.club_name_3_butt{
+    margin-left: 25px;
+    border: 2px solid #E5E1DA;
+    background-color: #AAD7D9;
+    width: 30px;
+    height: 30px;
+    }
+
+/* 검색창 끝 */
+
+
+
+
+
+
+
+
+
+
+/* 검색창 옆 +버튼 */
+
+/* 타임 페러독스 설명칸 */
+.club_name_4{
+
+   padding: 15px 15px;
+   border-radius: 25px;
+   border: 2px solid #E5E1DA;
+   background-color: white;
+   
+}
+.club_name_list_title{
+   
+    width: 60%;
+    height: 30%;
+ 
+}
+
+.club_name_content{
+
+    float: left;
+    margin-top: 10px;
+    width: 60%;
+    
+}
+
+
+
+
+
+
+
+
+
+/* 사진들 스타일 구역 */
+/* 아이콘 사진*/
+img{
+    width: 20px;
+    position: relative;
+    top: 4px;
+
+}
+
+/* 무비 클럽 메인 타이틀 사진 */
+.club_name_img3{
+width: 50%;
+margin: 0px auto;
+border: 1px solid black;
+border-radius: 25px;
+position: relative;
+
+
+
+}
+
+/* 타임 페러독스 그림 */
+.club_name_img5{
+    width: 23vw;
+   height: 20vw;
+   float: right;
+   border-radius: 25px;
+   border: 2px solid #E5E1DA;
+
+
+}
+
+
