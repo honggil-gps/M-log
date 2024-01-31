@@ -1,0 +1,43 @@
+#head_logo{
+    /* justify-content: center; */
+    /* margin:auto; */
+    margin-left: 7px;
+    margin-top: 2px;
+    width: 190px;
+    margin-bottom: 2vh;
+    /* text-align: center; */
+    height: 42px;
+    background-image: url("../header/img/logo.png");
+    background-size: 100%;
+}
+
+#notecebell{
+    float:right;
+    width : 22px; 
+    height: 22px;
+    margin-top: 12px;
+    margin-right: 12px;
+}
+/* .back{
+    text-decoration-line:none ;
+    font-weight:bold;
+    font-size: x-large;
+    display: inline-block;
+    float: left;
+    padding: 0px 10px 0px 0px;
+    color: rgb(101, 98, 96);
+    margin-top :0;
+    } */
+/* .menuname{
+    font-weight: bold;
+    font-size: x-large;
+    display: inline;
+    color: rgb(101, 98, 96);
+} */
+.head_img{
+        /* margin: auto; */
+        /* float:right;
+        width : 20px; */
+        /* height: 100; */
+        
+    }
