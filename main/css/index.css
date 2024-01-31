@@ -1,24 +1,18 @@
 body{
-
   width: 430px;
 	line-height: 1.6;
-  background-color: #fbf9f1;
-  
 }
 
-#all{
- position: relative;
-}
 
 #video{
-  width: 415px;
-  margin-top: 1%;
+  width: 430px;
+  margin-top: 20%;
   filter: brightness(50%);
 }
 
 .video_text { 
   position: absolute; 
-  top: 28%; 
+  top: 30%; 
   left: 3%;
   width: 100%; 
 }
@@ -36,6 +30,14 @@ body{
   font-weight: 500;
 }
 
+body{
+  margin: 0;
+}
+
+#all{
+ position: relative;
+}
+
 #container{
   margin: 0 auto;
   padding: 0 auto;
@@ -45,14 +47,14 @@ body{
 .tab, .prod-list{
   box-sizing: border-box;
 }
+
 .tab{
-	width: 412px;
-	margin: 0px;
+	width: 430px;
 
 }
 
 ul.prod-list{
-  margin: 0 auto;
+  margin: 0px 0px 5px 0px;
   padding: 0px;
 
 }
@@ -71,8 +73,8 @@ ul.tabs li{
 }
 
 ul.tabs li.current{
-	background: #e5e1da;
-	color: #222;
+	background: #848794;
+	color: #fff;
   border-radius: 2% 2% 0% 0%;
 }
 
@@ -82,7 +84,7 @@ ul.tabs li.current{
 
 .tab-content{
 	display: none;
-	background: #ededed;
+	background: #434a63;
 	padding: 0px 0px;
 }
 
@@ -103,7 +105,16 @@ ul.tabs li.current{
   border-radius: 2%;
 }
 
-#adimg1, #adimg2{
+#adimg1{
+  width: 204px;
+  height: 150px;
+  margin: 10px 0px 5px 6px;
+  border-radius: 2%;
+  opacity: 0.8;
+  filter: brightness(50%);
+}
+
+#adimg2{
   width: 204px;
   height: 150px;
   margin: 10px 0px 5px 0px;
@@ -139,7 +150,7 @@ ul.tabs li.current{
   width: 413px;
   height: 150px;
   background-color: #ededed;
-  margin: 0px 15px 20px 0px;
+  margin: 0px 15px 20px 6px;
   border-radius: 2%;
   opacity: 0.8;
   filter: brightness(50%);
@@ -148,17 +159,29 @@ ul.tabs li.current{
 .adtext3 {
   font-size: 18px;
   position: absolute;
-  top: 650px;
-  left: 220px;
+  top: 910px;
+  left: 50%;
   transform: translate( -50%, -50% );
   color: white;
 }
 
-footer{
+header{
   position: fixed;
-  bottom: 0px;
+  top: 10px;
   left: 0px;
   width: 430px;
-  height: 81px;
+  height: 60px;
+  margin: 0px;
+  background-color: white;
+  z-index: 2;
+}
+
+
+footer{
+  position: fixed;
+  top: 70px;
+  left: 0px;
+  width: 430px;
+  height: 80px;
   margin: 0px;
 }
