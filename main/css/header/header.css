@@ -30,3 +30,65 @@
         width : 20px;
         height: 100;
     }
+
+.notice{
+    display:none;
+    font-size: small;
+    width: fit-content;
+    padding: 5px;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(101, 98, 96);
+}
+.side-bar{
+    margin: 10px;
+    width: 10px;
+    float:right;
+}
+/* 노멀라이즈 시작 */
+ul {
+margin: 0px 10px;
+padding: 5px;
+list-style: none;}
+
+.side-bar > ul {
+display: none;
+border: none;
+border-radius: 10px;
+background-color: rgb(101, 98, 96, 0.5);
+border-radius: 5px;
+transition-property: width;
+transition-timing-function: ease;
+transition-duration: 2s;
+width:auto;
+display: block;
+position: absolute;
+top: 0; 
+right: 100%;  
+}
+
+.side-bar ul > li{
+padding:2px;
+display: block;
+border-radius: 5px;
+color: black;
+font-size: small;
+transition: .5s;
+}
+
+.side-bar > ul > li:hover{
+    background-color: rgb(101, 98, 96);
+}
+/* .side-bar > ul > li {
+position: relative;
+} */
+
+.side-bar:hover > ul {
+    width: 320px;
+}
+
+.side-bar:hover {
+    transform: translate(-10px, 0);
+    transition: 0.5s
+}
