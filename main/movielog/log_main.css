@@ -1,12 +1,9 @@
-body{
-  background-color: #FBF9F1;
-}
 .hashtags{
   display:flex;
   flex-wrap: wrap;
   margin: 10px auto;
   padding: 10px;
-  max-width: 80%;
+  max-width: 60%;
   border-radius: 10px;
   border: 2px solid rgb(59, 108, 125);
 }
@@ -20,3 +17,60 @@ body{
   border-radius: 15px;
   background-color: rgb(59, 108, 125);
 }
+
+/* picword 파일 시작 */
+/* picword 보더 구역 */
+#picword_part{
+  border: 2px solid #E5E1DA;
+  font-size: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%; /* width 수정-YW */
+  min-width: 220px;
+  max-width: 380px;
+  height:70px;
+  grid-gap: 70px;
+  border-radius: 8px;
+  margin: 0px auto;
+  margin-bottom: 10px; /* 아래 마진 수정 -YW */
+  line-height: 12px;
+  padding: 10px;/* 수정-YW */
+  position: relative;
+  }
+  /* picword 시청 날짜 */
+  .picword_date{
+    position:absolute;
+    top: 60%;
+    left: 35%;
+    font-size: x-small;
+  }
+  /* picword 영화 제목 */
+  .picword_title{
+    position:absolute;
+    top: 30%;
+    left: 35%;
+    font-weight: bold;
+    font-size: small; /* 크기 조금 키웠어요-YW */
+  }
+  
+  /* picword 영화 이미지 크기 조정 */
+  #picword_part > div > img{
+    position: absolute;
+    top:10%;
+    left: 10%;
+    width: 50px; /* 페이지 사이즈에 맞게 조정-YW */
+    /* height: 25px; 비율깨져서 조정-YW*/
+    border-radius: 5px;
+  }
+  /* picword_아이콘 */
+  .picword_icon{
+    width: 30px;
+    height: 30px; 
+    margin: 3px;
+    position: absolute;
+    top: 25%;
+    right: 5%;
+  }
+  /* picword 파일 끝 */
+  

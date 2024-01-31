@@ -6,7 +6,7 @@ html{
 #navbar{ 
   display: flex;
   max-width: 100%;
-  height: 40px;
+  height: 50px;
   /* background-color: #817a6e; */
   /* background-color: #434a63; */
   background-image: linear-gradient(to right, #434a63, #625d54);   
