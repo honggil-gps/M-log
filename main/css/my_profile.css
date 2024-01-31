@@ -1,6 +1,10 @@
 body{
   background-color: #FBF9F1;
 }
+main{
+  max-width: 750px;
+  margin: 0 auto;
+}
 /* 뒤로가기 */
 .back{
   text-decoration-line:none ;
