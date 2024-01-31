@@ -1,4 +1,10 @@
+*{
+    color: rgb(101, 98, 96);
+    background-color: rgb(251,249,241);
+}
+
 #containers{
+    margin-top: 1rem;
     justify-content: center;
     width: 100%;
     margin-bottom: 2vh;
@@ -30,6 +36,7 @@
     word-break: break-all;
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
+    background-color: rgb(229, 225, 218);
 }
 #hothashtags_contents{
     display :-webkit-box;
@@ -44,6 +51,7 @@
     word-break: break-all;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
+    background-color: rgb(229, 225, 218);
 }
 
 #hothashtags_hashtags{
@@ -57,4 +65,5 @@
     word-break: break-all;
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
+    background-color: rgb(229, 225, 218);
 }
