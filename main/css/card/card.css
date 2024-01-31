@@ -11,7 +11,7 @@
   padding:0;
   /* 가로스크롤 */
   display:flex;
-  background: #E5E1DA;
+  background: #eae8e8;
   overflow-x: scroll;
 }
 .prod-list li {
