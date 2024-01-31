@@ -30,3 +30,14 @@
         width : 20px;
         height: 100;
     }
+
+.notice{
+    display:none;
+    font-size: small;
+    width: fit-content;
+    padding: 5px;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(101, 98, 96);
+}
