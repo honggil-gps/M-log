@@ -183,7 +183,7 @@ header{
         width: 20%; 
         height: 500px;
         /*sidebar 위치 지정 (위에서부터 몇 퍼센트)*/
-        top: 40%;
+        /*top: 40%;*/
         right: 2%;
         background-color: #eae8e8;
         border-radius: 2%;
