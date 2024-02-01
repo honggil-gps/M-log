@@ -172,6 +172,14 @@ footer{
   color: #fff;
   text-align: center;
 }
+
+.crop-img {
+  display: inline-block;
+  width: 50px; /* 원하는 가로 크기 */
+  height: 50px; /* 원하는 세로 크기 */
+  object-fit: cover; /* 이미지를 잘라서 비율을 유지하면서 채우기 */
+}
+
 /* 모달창 */
 .modal{
   position:absolute;
@@ -238,16 +246,38 @@ footer{
   top: 293px;
   left:10px;
 }
+#reviewList{
+  width: 70%;
+  position:absolute;
+  top: 650px;
+  left:10px;
+}
 /* 사이드메뉴 */
 #sidemenu{
   display:block;
   position: fixed;
   width: 25%; /* 사이드메뉴 너비 퍼센트조정 */
-  height: 400px;
+  height: 500px;
   top: 23.4%;
   right: 2%;
   background-color: #eae8e8;
   border-radius: 2%;
+}
+.inline{
+  margin: 10px auto;
+  border: 1px solid #5f5b5b;
+  border-radius: 5px;
+  text-align: center;
+  box-sizing: border-box;
+  width: 90%;
+  display:flex;
+  padding: 10px 10%;
+}
+
+
+.inline > img {
+  position: absolute;
+  right:15%;
 }
 
 #sidetitle{
@@ -255,13 +285,17 @@ footer{
 }
 
 #sidehr{
-  width: 160px;
+  width: 90%;
   margin-left: 15px;
 }
 
 #sidetext{
+  display: -webkit-box;
+    -webkit-line-clamp: 1; /* 보여질 라인 수 */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   font-size: 14px;
-  margin-left: 25px;
+  padding: 3px;
 }
 /* 사이드메뉴 css 끝 */
 }
