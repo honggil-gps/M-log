@@ -20,6 +20,8 @@
     margin-top: 12px;
     margin-right: 12px;
 }
+
+<<<<<<< HEAD
 /* .back{
     text-decoration-line:none ;
     font-weight:bold;
@@ -42,3 +44,14 @@
         width : 20px; */
         /* height: 100; */
     }
+=======
+.notice{
+    display:none;
+    font-size: small;
+    width: fit-content;
+    padding: 5px;
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
+>>>>>>> 74e4cee9682c08be2a8a12f703474fa28dbcb7a0

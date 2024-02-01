@@ -1,32 +1,36 @@
 body{
-  width: 430px;
 	line-height: 1.6;
 }
 
+#noticebell{
+  /* margin-left: 75%; */
+}
 
 
 #video{
-  width: 430px;
-  margin-top: 25%;
+  display: flex;
+  width: 100%;
+  /* width: 26.875rem; */
+  margin-top: 125px;
   filter: brightness(50%);
 }
 
 .video_text { 
   position: absolute; 
-  top: 30%; 
+  top: 200px; 
   left: 3%;
   width: 100%; 
 }
 
 #vt1{
-  font-size: 1.125rem; 
+  font-size: 18px; 
   color: #ffffff;
   font-weight: 700;
-  margin-bottom: .625rem;
+  margin-bottom: 10px;
 }
 
 #vt2{
-  font-size: .75rem; 
+  font-size: 12px; 
   color: #ffffff;
   font-weight: 500;
 }
@@ -50,26 +54,32 @@ body{
 }
 
 .tab{
-	width: 26.875rem;
+	/* width: 430px; */
+  margin: 5px;
 
 }
 
+.tabs{
+  display: flex;
+  width: 100%;
+}
+
 ul.prod-list{
-  margin: 0rem 0rem .3125rem 0rem;
-  padding: 0rem;
+  margin: 0px 0px 5px 0px;
+  padding: 0px;
 
 }
 
 ul.tabs{
-	margin: 0rem;
-	padding: 0rem;
+	margin: 0px;
+	padding: 0px;
 	list-style: none;
 }
 ul.tabs li{
 	background: none;
 	color: #222;
 	display: inline-block;
-	padding: .625rem 1.875rem;
+	padding: 10px 30px;
 	cursor: pointer;
 }
 
@@ -86,115 +96,132 @@ ul.tabs li.current{
 .tab-content{
 	display: none;
 	background: #434a63;
-	padding: 0rem 0rem;
+	padding: 0px 0px;
 }
 
 .tab-content.current{
 	display: inherit;
 }
 
-#adtab{
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-}
 
 #ad1, #ad2{
-  width: 12.6875rem;
-  height: 9.375rem;
+  width: 203px;
+  height: 150px;
   background-color: #ededed;
-  /* margin: .9375rem .625rem .625rem 0rem; */
+  /* margin: 15px 10px 10px 0px; */
   border-radius: 2%;
 }
 
 #adimg1{
-  width: 12.75rem;
-  height: 9.375rem;
-  margin: .625rem 0rem .3125rem .375rem;
+  width: 204px;
+  height: 150px;
+  margin: 5px 5px 5px 5px;
   border-radius: 2%;
   opacity: 0.8;
   filter: brightness(50%);
 }
 
 #adimg2{
-  width: 12.75rem;
-  height: 9.375rem;
-  margin: .625rem 0rem .3125rem 0rem;
+  width: 204px;
+  height: 150px;
+  margin: 5px 5px 5px 0px;
   border-radius: 2%;
   opacity: 0.8;
   filter: brightness(50%);
 }
 
+#adimg3{
+  width: 413px;
+  height: 150px;
+  background-color: #ededed;
+  /* margin: 0px 15px 20px 6px; */
+  margin: 5px 5px 5px 5px;
+  border-radius: 2%;
+  opacity: 0.8;
+  filter: brightness(50%);
+}
+
+/* #adimg4{
+  width: 170px;
+  height: 150px;
+  margin: 5px 5px 5px 0px;
+  border-radius: 2%;
+  opacity: 0.8;
+  filter: brightness(50%);
+} */
+
 .adtab {
+  display: flex;
   position: relative;
+  flex-wrap: wrap;
 }
 
 .adtext1 {
-  font-size: 1.125rem;
+  font-size: 18px;
   position: absolute;
   text-align: center;
-  top: 4.375rem;
-  left: 6.25rem;
+  top: 70px;
+  left: 100px;
   transform: translate( -50%, -50% );
   color: white;
 }
 
 .adtext2 {
-  font-size: 1.125rem;
+  font-size: 18px;
   position: absolute;
-  top: 4.375rem;
-  left: 19.375rem;
+  top: 70px;
+  left: 310px;
   transform: translate( -50%, -50% );
   color: white;
-}
-
-#adimg3{
-  width: 25.8125rem;
-  height: 9.375rem;
-  background-color: #ededed;
-  margin: 0rem .9375rem 1.25rem .375rem;
-  border-radius: 2%;
-  opacity: 0.8;
-  filter: brightness(50%);
 }
 
 .adtext3 {
-  font-size: 1.125rem;
+  font-size: 18px;
   position: absolute;
-  top: 56.875rem;
-  left: 50%;
+  text-align: center;
+  top: 70px;
+  left: 100px;
   transform: translate( -50%, -50% );
   color: white;
 }
 
+
+
+
+
 header{
+  display: flex;
+  width: 100%;
   position: fixed;
-  top: .625rem;
-  left: 0rem;
-  width: 26.875rem;
-  height: 4.125rem;
-  margin-top: -0.625rem;
+  top: 10px;
+  left: 0px;
+  /* width: 430px; */
+  height: 67px;
+  margin-top: -10px;
   background-color: white;
   z-index: 2;
-  padding-top: .625rem;
+  padding-top: 10px;
 }
 
 
 footer{
+  display: flex;
+  width: 100%;
   position: fixed;
-  top: 4.375rem;
-  left: 0rem;
-  width: 26.875rem;
-  height: 5rem;
-  margin: 0rem;
-  padding: 0rem;
+  top: 70px;
+  left: -8px;
+  /* width: 430px; */
+  height: 80px;
+  margin: 0px;
+  padding: 0px;
 }
 
 
 
-/* @media (min-width: 48rem) {
+/* @media (min-width: 768px) {
   header{
-    width: 48rem;
-    height: 80px;
+    width: 768px;
+    height: 5rem;
   }
 
   #head_logo{
@@ -202,34 +229,34 @@ footer{
   }
 
   footer{
-    width: 48rem;
-    height: 80px;
+    width: 768px;
+    height: 5rem;
     top: 10%;
   }
 
   #video{
-    width: 48rem;
-    margin-top: 170px;
+    width: 768px;
+    margin-top: 10.625rem;
   }
 
   #vt1{
-    font-size: 30px;
-    margin-top: 0px;
+    font-size: 1.875rem;
+    margin-top: 0rem;
   }
 
   #vt2{
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 
   #menutitle{
-    width: 130px;
-    height: 30px;
-    font-size: 20px;
-    padding-left: 52px;
+    width: 8.125rem;
+    height: 1.875rem;
+    font-size: 1.25rem;
+    padding-left: 3.25rem;
   }
 
   #tab-1, #tab-2{
-    width: 768px;
+    width: 48rem;
   }
 
 
