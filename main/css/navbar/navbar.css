@@ -6,10 +6,10 @@ html{
 #navbar{ 
   display: flex;
   max-width: 100%;
-  height: 50px;
+  /* height: 50px; */
   /* background-color: #817a6e; */
   /* background-color: #434a63; */
-  background-image: linear-gradient(to right, #434a63, #625d54);   
+  /* background-image: linear-gradient(to right, #434a63, #625d54);    */
   justify-content: space-between;
   margin: 0px;
 }
@@ -19,7 +19,13 @@ html{
   width: 65px;
   text-align: center;
 }
-
+.nav_bg{
+  justify-content: space-between;
+  margin: 0px;
+  width: 100%;
+  display: flex;
+  background-image: linear-gradient(to right, #434a63, #625d54);
+}
 /* .navbar::after{
   content: "";
   width: 1.5px;
@@ -60,11 +66,11 @@ html{
   position: absolute;
   background-color: #625d54;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 5;
+  z-index: 2;
+  margin: -1px;
 }
 
 .dropdown-content a {
-  margin: 0px;
   font-weight: bold;
   font-size: small;
   color: white;
