@@ -2,7 +2,7 @@
 /* YJ(양지은)_회원가입 전체 구역  */
 
 body{
-    background-color: #FBF9F1;
+    background-color: #fff;
     
 }
 #signin{
@@ -15,7 +15,7 @@ body{
     grid-gap: 30px;
     text-align: center;
     margin: -10px;
-    background-color: #FBF9F1;
+    background-color: #fff;
     
     }
     /* 회원가입 제목 */
@@ -28,7 +28,7 @@ body{
     }
 /* 중복확인 버튼 스타일  */
 .signin_button{
-    background-color: #AAD7D9;
+    background-color:rgb(101, 98, 96);
     font-size: 11px;
     font-weight: bold;
     border-radius: 5px;
@@ -65,7 +65,7 @@ body{
     .signin_butt{
     border: 1px solid #e5e1Da;
     width: 240px;
-    background-color: #AAD7D9;
+    background-color: rgb(101, 98, 96);
     text-align: center;
     border-radius: 7px;
     font-size: 15px;
