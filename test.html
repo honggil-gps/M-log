@@ -4,40 +4,95 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
+    .notice {
+      display: none;
+      font-size: small;
+      width: fit-content;
+      padding: 5px;
+      color: white;
+      border: none;
+      border-radius: 15px;
+      background-color: rgb(101, 98, 96);
+    }
+
+    .side-bar {
+      margin: 10px;
+      width: 10px;
+      float: right;
+    }
+
     ul {
+      margin: 15px 10px;
+      padding: 5px;
       list-style: none;
-      padding: 0;
     }
 
-    li {
-      opacity: 0;
-      animation: fadeIn 0.5s ease; /* 애니메이션 지속 시간 및 타이밍 함수 설정 */
+    .side-bar > ul {
+      /* display: none; */
+      border: none;
+      border-radius: 10px;
+      transition-property: width;
+      transition-timing-function: ease;
+      transition-duration: 2s;
+      width: auto;
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 100%;
+      overflow: hidden; /* 변경된 부분: overflow 속성 추가 */
+      max-height: 0;  /* 변경된 부분: 초기에는 높이를 0으로 설정 */
+  transition: max-height 0.5s ease;  /* 변경된 부분: max-height에 대한 애니메이션 추가 */
+}
+
+.side-bar:hover > ul {
+  max-height: 200px;  /* 변경된 부분: hover 시에 높이를 원하는 값으로 설정 */
+}
+
+    .side-bar ul > li {
+      padding: 2px;
+      display: block;
+      border-radius: 5px;
+      color: black;
+      font-size: small;
+      transform: translateX(-100%); /* 변경된 부분: 초기에 왼쪽으로 이동 */
+      transition: transform 0.5s ease, opacity 0.5s ease; /* transform와 opacity 애니메이션 적용 */
     }
 
-    @keyframes fadeIn {
-      from {
-        opacity: 0;
-        transform: translateX(20px);
-      }
-      to {
-        opacity: 1;
-        transform: translateX(0);
-      }
+    .side-bar ul > li:hover {
+      background-color: rgb(101, 98, 96, 0.6);
+      transform: translateX(0); /* 변경된 부분: hover 시에 오른쪽으로 이동하여 나타남 */
     }
 
-    ul:hover li {
-      animation-play-state: running;
+    .side-bar:hover > ul {
+      width: 320px;
+    }
+
+    .side-bar:hover {
+      transform: translate(-10px, 0);
+      transition: 0.5s;
+    }
+
+    /* 추가된 부분: li 태그 애니메이션 효과 정의 */
+    .side-bar ul > li:nth-child(1) {
+      transition-delay: 0.3s;
+    }
+
+    .side-bar ul > li:nth-child(2) {
+      transition-delay: 0.6s;
     }
   </style>
   <title>애니메이션으로 li 태그 나타내기</title>
 </head>
 <body>
 
+<aside class="side-bar">
+  <br>
+  <img src="../css/header/img/noticebell_colorchanged.png" id="notecebell" class="head_img" alt="알림">
   <ul>
-    <li>항목 1</li>
-    <li>항목 2</li>
-    <li>항목 3</li>
+    <li>[빌런이 좋아]클럽에서 새로운 게시글이 올라왔습니다</li>
+    <li>달팽이님이 당신을 팔로우하였습니다</li>
   </ul>
+</aside>
 
 </body>
 </html>

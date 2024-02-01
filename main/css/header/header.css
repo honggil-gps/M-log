@@ -40,7 +40,6 @@
     color: white;
     border: none;
     border-radius: 15px;
-    background-color: rgb(101, 98, 96);
 }
 .side-bar{
     margin: 10px;
@@ -57,7 +56,7 @@ list-style: none;}
 display: none;
 border: none;
 border-radius: 10px;
-/* background-color: rgb(101, 98, 96, 0.5); */
+background-color: rgb(101, 98, 96);
 border-radius: 5px;
 transition-property: width;
 transition-timing-function: ease;
@@ -73,13 +72,13 @@ right: 100%;
 padding:2px;
 display: block;
 border-radius: 5px;
-color: black;
+color: white;
 font-size: small;
 transition: .5s;
 }
 
 .side-bar > ul > li:hover{
-    background-color: rgb(101, 98, 96, 0.6);
+    background-color: rgb(68, 65, 63);
 }
 /* .side-bar > ul > li {
 position: relative;
@@ -92,8 +91,4 @@ position: relative;
 .side-bar:hover {
     transform: translate(-10px, 0);
     transition: 0.5s
-}
-
-.side-bar:hover > ul > li{
-    
 }
