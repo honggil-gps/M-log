@@ -15,7 +15,7 @@ header{
     padding: 0px 10px 0px 0px;
     color: rgb(101, 98, 96);
     margin-top :0;
-    }
+}
 .form{
     margin: 10px auto;
     padding: 10px;
@@ -24,7 +24,6 @@ header{
     background-color: none;
     text-align: center;
 }
-
 #setting{
         margin: 10px auto;
         border: none;
@@ -42,7 +41,7 @@ header{
     height: 50px;
     border: none;
     border-radius: 100%;
-    }
+}
 .user_profile{
     padding: 10px;
     text-align: left;
@@ -64,12 +63,12 @@ header{
     max-height: 90vh;
     max-width: 100%;
     text-align: center;
-    justify-content: center;
-    align-content: center;
     justify-items: center;
 }
 .contents_body{
     display: inline-block;
+    justify-content: center;
+    align-items: center;
     margin-left: 1rem;
     margin-right: 1rem;
     background-color : white;
@@ -132,8 +131,7 @@ header{
     height: 45vw; /* 45% of the viewport width (to maintain 16:9 aspect ratio) */
     max-width: 800px; /* Set a maximum width to prevent the video container from becoming too wide */
     max-height: 450px; /* Set a maximum height to prevent the video container from becoming too tall */
-    margin-left: 17vw;
-    margin-right:auto;
+    margin-inline-start: 8%;
     background-repeat: no-repeat;
     background-size:contain;
 }
@@ -147,8 +145,95 @@ header{
     height: 45vw; /* 45% of the viewport width (to maintain 16:9 aspect ratio) */
     max-width: 800px; /* Set a maximum width to prevent the video container from becoming too wide */
     max-height: 450px; /* Set a maximum height to prevent the video container from becoming too tall */
-    margin-left:9vw;
+    margin-inline-start: 17%;
     background-repeat: no-repeat;
     background-size:contain;
 }
+/*좋아요 버튼 animation*/
+@keyframes beat {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+  }
+  .like-btn .fa-thumbs-up {
+    animation: beat 0.5s ease-in-out; /* 애니메이션 적용 */
+  }
+/* 사이드메뉴 css 시작 */
+/* 개인페이지에 맞게 width, height, top 조절하면 됩니당 */
+#sidemenu{
+    position: fixed;
+    width: 189px;
+    height: 400px;
+    top: 23.4%;
+    right: 2%;
+    background-color: #eae8e8;
+    border-radius: 2%;
+  }
+  #sidetitle{
+    text-align: center;
+  }
+  #sidehr{
+    width: 90%;
+    margin-left: 15px;
+  } 
+  #sidetext{
+    font-size: 14px;
+    margin-left: 25px;
+  }
 
+    /* 반응형 웹 (sidebar plus at 768px) */
+    #sidemenu{
+      display: none;
+    }
+
+  @media (min-width: 768px){
+      /* 사이드메뉴 */
+    .motherwrapper{
+        display: grid;
+        grid-template-columns: 1fr 20%;
+        gap : 1rem;
+    }
+    .main_contents{
+        max-width: 1fr;
+    }
+    #sidemenu{
+        display:block;
+        position: fixed;
+        /* 사이드메뉴 너비 퍼센트조정 */
+        width: 20%; 
+        height: 400px;
+        /*sidebar 아래에서 높이 지정*/
+        top: 40%;
+        right: 2%;
+        background-color: #eae8e8;
+        border-radius: 2%;
+    }
+    #sidehr{
+        width: 90%;
+        margin-left: 1rem;
+    } 
+    #sidetext{
+        font-size: 0.875rem;
+        margin-left: 1.56rem;
+    }
+    .main_contents{
+        text-align: center;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        background-color : white;
+    }
+    .img-big{
+        max-width: 80%;
+        max-height: 45%;
+        /* margin-left: 7%; */
+    }
+    .img-container{
+        max-width :80%;
+        max-height: 45%;
+        /* margin-left :0 ; */
+    }
+    .video-container{
+        max-width :80%;
+        max-height: 45%;
+    }
+  }
