@@ -2,7 +2,7 @@
 /* YJ(양지은) login css 시작 */
 /* login 코드 전 구역  */
 body{
-    background-color: #FBF9F1;
+    background-color: #Fff;
 }
 #login{
 display: grid;
@@ -41,9 +41,9 @@ img{
 }
 /* 로그인, 회원가입 버튼 */
 .login_butt{
-border: 1px solid #e5e1Da;
+
 width: 220px;
-background-color: #AAD7D9;
+background-color:rgb(101, 98, 96);
 text-align: center;
 border-radius: 7px;
 font-size: 15px;
