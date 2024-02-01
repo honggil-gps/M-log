@@ -233,3 +233,66 @@ footer{
   margin: 0px;
   padding: 0px;
 }
+
+/* 사이드메뉴 css 시작 */
+/* 개인페이지에 맞게 width, height, top 조절하면 됩니당 */
+
+#sidemenu{
+  position: fixed;
+  width: 189px;
+  height: 400px;
+  top: 30.5%;
+  right: 2%;
+  background-color: #eae8e8;
+  border-radius: 2%;
+}
+
+#sidetitle{
+  text-align: center;
+}
+
+#sidehr{
+  width: 160px;
+  margin-left: 15px;
+}
+
+#sidetext{
+  font-size: 14px;
+  margin-left: 25px;
+}
+
+/* 사이드메뉴 css 끝 */
+
+
+
+@media (min-width: 768px){
+  /* 공통부분 */
+  header{
+    width: 768px;
+    height: 67px;
+  }
+
+  footer{
+    top: 10%;
+    width: 784px;
+  }
+
+  body{
+    margin-left: 2%;
+  }
+
+  /* 여기까지 공통부분 이후 컨텐츠들은 width 각 530px로  */
+
+  #prod-list, #list{
+    width: 530px;
+  }
+
+  #criticgrid{
+    width: 600px;
+  }
+
+  hr{
+    width: 540px;
+  }
+
+}
