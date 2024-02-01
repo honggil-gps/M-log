@@ -250,13 +250,13 @@ textarea{
 #movieList{
   width: 70%;
   position:absolute;
-  top: 293px;
+  top: 310px;
   left:10px;
 }
 #reviewList{
   width: 70%;
   position:absolute;
-  top: 650px;
+  top: 665px;
   left:10px;
 }
 /* 사이드메뉴 */
