@@ -11,28 +11,32 @@ grid-template-areas:
 "a"
 "a"
 "a";
-grid-gap: 30px;
+grid-gap: 4vw;
 text-align: center;
 margin: -10px;
 
 }
 /* m-log 제목 스타일 */
 .login_title{
-    margin: 20px auto;
+    margin:5% auto;
   font-size: 30px;
   font-weight: bold;
-width: 220px;
-height: 70px;
+width: 31vw;
+height: 80px;
   
 }
 /* ID,비밀번호 스타일 */
 .login_input{
     width: 220px;
-    padding: 7px 7px;
+
+    padding: 6px 6px;
     display: flex;
-    margin: -10px auto;
+    margin: -9px auto;
     border-radius: 5px;
     border: 2px solid #e5e1Da;
+    position: relative;
+    top:-15px;
+
 }
 /* 카카오,네이버, 구글 아이콘 이미지  */
 img{
@@ -41,17 +45,27 @@ img{
 }
 /* 로그인, 회원가입 버튼 */
 .login_butt{
-
-width: 220px;
+width: 250px;
+height: 40px;
+display: flex;
+justify-content: center;
+padding-top: 10px;
 background-color:rgb(101, 98, 96);
-text-align: center;
 border-radius: 7px;
 font-size: 15px;
 color: white;
 font-weight: bold;
-padding: 8px 8px ;
-margin: 5px auto;
+margin: 8px auto; 
+
+
+
+
 }
+
+
+
+
+
 /* 버튼 밑줄  */
 #butt_line{
 text-decoration: none;
@@ -60,11 +74,35 @@ text-decoration: none;
 #login_other{
 display: flex;
 justify-content: center;
-grid-gap: 50px;
+grid-gap: 10vw;
 border-radius: 5px;
 }
 /* 아이콘 그림 둥글게 */
 .login_other{
 border-radius: 35%;
+margin: 5px auto ;
 }
 /* YJ(양지은) login css 끝 */
+
+
+
+
+    
+    @media (min-width: 432px){
+      /* 공통부분 */
+   
+      .login_input{   
+        width: 350px;
+        }
+    .login_butt{
+        width: 390px;
+  
+        
+    }
+    #login_other{
+
+        grid-gap: 140x;
+    }
+
+
+      }
