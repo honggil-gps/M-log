@@ -160,26 +160,6 @@ header{
   }
 /* 사이드메뉴 css 시작 */
 /* 개인페이지에 맞게 width, height, top 조절하면 됩니당 */
-#sidemenu{
-    position: fixed;
-    width: 189px;
-    height: 400px;
-    top: 23.4%;
-    right: 2%;
-    background-color: #eae8e8;
-    border-radius: 2%;
-  }
-  #sidetitle{
-    text-align: center;
-  }
-  #sidehr{
-    width: 90%;
-    margin-left: 15px;
-  } 
-  #sidetext{
-    font-size: 14px;
-    margin-left: 25px;
-  }
 
     /* 반응형 웹 (sidebar plus at 768px) */
     #sidemenu{
@@ -201,20 +181,13 @@ header{
         position: fixed;
         /* 사이드메뉴 너비 퍼센트조정 */
         width: 20%; 
-        height: 400px;
-        /*sidebar 아래에서 높이 지정*/
+        height: 500px;
+        /*sidebar 위치 지정 (위에서부터 몇 퍼센트)*/
         top: 40%;
         right: 2%;
         background-color: #eae8e8;
         border-radius: 2%;
-    }
-    #sidehr{
-        width: 90%;
-        margin-left: 1rem;
-    } 
-    #sidetext{
-        font-size: 0.875rem;
-        margin-left: 1.56rem;
+        overflow: scroll;
     }
     .main_contents{
         text-align: center;
@@ -235,5 +208,32 @@ header{
     .video-container{
         max-width :80%;
         max-height: 45%;
+    }
+    .inline{
+        margin: 5px auto;
+        border: 1px solid #5f5b5b;
+        border-radius: 5px;
+        text-align: center;
+        box-sizing: border-box;
+        width: 90%;
+        display:flex;
+        padding: .3125rem 0;
+        }
+    #sidetitle{
+        text-align: center;
+        }
+    #sidehr{
+        width: 90%;
+        margin-left: 15px;
+        }
+    #sidetext{
+        display: -webkit-box;
+        -webkit-line-clamp: 1; /* 보여질 라인 수 */
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        word-break:break-all;
+        font-size: 14px;
+        padding: 3px;
     }
   }
