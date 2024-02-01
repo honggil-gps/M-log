@@ -231,36 +231,52 @@ img{
 
 #sidemenu{
   position: fixed;
-  width: 300px;
+  width: 350px;
   height: 500px;
   top: 8%;
-  left: 70%;
+  left: 69%;
   background-color: #eae8e8;
   border-radius: 2%;
 }
 
 #sidetitle{
   text-align: center;
+margin-top: 30px;
 }
 
 #sidehr{
   width: 160px;
-  margin-left: 15px;
+  margin: 0px auto ;
 }
 
 #sidetext{
 width: 80%;
-margin: 20px auto;
+margin: 25px auto;
 }
 .club_name_11{
   font-size: 14px;
   padding: 12px 12px;
   border: 1px solid black;
-  border-radius: 20px;
-  background-image: url(../club_name/img/club_name01.jpg);
+  border-radius: 5px;
+  padding: 15px 15px;
   background-size: cover;
-  margin: 5% auto;
+  margin: 0px auto;
+  margin-top: -5px;
 }
+
+#list{
+display: grid;
+grid-template-areas: "a a";
+justify-content: space-around;
+align-items: center;
+}
+#li_img{
+  width: 60px;
+  height: 60px;
+  margin-top: -10px;
+
+}
+
 
 .club_name_12{
   font-size: 14px;
