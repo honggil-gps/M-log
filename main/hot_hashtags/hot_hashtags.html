@@ -7,9 +7,24 @@
     <link rel="stylesheet" href="../hot_hashtags/hot_hashtag.css">
     <link rel="stylesheet" href="../css/header/header.css">
     <link rel="stylesheet" href="../css/header/header copy.css">
-    <link rel="stylesheet" href="../css/header/header copy.css">
-    <link rel="stylesheet" href="document_detail.css">
     <link rel="stylesheet" href="../css/header/header.css">
+    <link rel="stylesheet" href="../css/document_detail.css">
+    <style>
+        @media (min-width: 768px){
+        #sidemenu{
+        display:block;
+        position: fixed;
+        /* 사이드메뉴 너비 퍼센트조정 */
+        width: 20%; 
+        height: 500px;
+        /*sidebar 위치 지정 (위에서부터 몇 퍼센트)*/
+        top: 20%;
+        right: 2%;
+        background-color: #eae8e8;
+        border-radius: 2%;
+        }
+     }
+    </style>
 </head>
 <header>
     <header>
@@ -28,6 +43,15 @@
         </div>
         </header>
 <body>
+    <div id="sidemenu">
+        <p id="sidetitle">조회수 200+ 해시태그🔥</p>
+        <hr id="sidehr">
+        <div class="inline"><p id="sidetext">▶ #마동석유니버스</p></div>
+        <div class="inline"><p id="sidetext">▶ #MARVEL #STUDIO</p></div>
+        <div class="inline"><p id="sidetext">▶ #영화제 #수상작</p></div>
+        <div class="inline"><p id="sidetext">▶ #겨울</p></div>
+    </div>
+    <div class="motherwrapper">
     <div class = layout>
     <div class = containers>
         <div class = hothashtags>
@@ -113,5 +137,6 @@
         </div>
     </div>
     </div>
+</div>
 </body>
 </html>
