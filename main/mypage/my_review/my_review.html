@@ -11,8 +11,9 @@
 </head>
 <body>
   <header>
+    <!-- 헤더로고 -->
     <div style="float: left;" id = "head_logo"></div>
-    <!--사이드바 알림-->
+    <!--사이드바 알림창-->
     <aside class="side-bar">
       <br>
       <img src="../../css/header/img/noticebell_colorchanged.png" id = "notecebell" class = "head_img">
@@ -23,11 +24,23 @@
     </aside>
     <!-- 알림창 끝 -->
   </header>
-  <br><br><br>
-  <a class="back" href="../my_profile/my_profile.html">&lt;</a>
-  <p class="menuname">리뷰 목록</p>
+  <br><br><br><!-- 헤더위한 공백 -->
+  <a class="back" href="../my_profile/my_profile.html">&lt;</a><!-- 뒤로가기 버튼 -->
+  <p class="menuname">리뷰 목록</p><!-- 페이지제목 -->
+
   <main>
-    <form id="review"> <!--작성한 영화리뷰-->
+    <!-- 사이드메뉴 -->
+    <div id="sidemenu">
+      <p id="sidetitle">사이드메뉴 제목</p>
+      <hr id="sidehr">
+      <p id="sidetext">항목1</p>
+      <p id="sidetext">항목2</p>
+      <p id="sidetext">항목3</p>
+    </div>
+    <!-- 사이드메뉴 -->
+
+    <!--작성한 영화리뷰-->
+    <form id="review">
       <h4>작성한 영화리뷰</h4>
       <p>전체 0건</p>
       <div class="form">
@@ -35,8 +48,8 @@
         <p>작성한 리뷰가 없습니다</p>
       </div>
     </form>
-    <hr>
-    <form><!--내가 시청한 영화목록-->
+    <!--내가 시청한 영화목록-->
+    <form id="movieList">
       <h4>내가 시청한 영화목록</h4>
       <div id="container">
         <ul class="prod-list">
@@ -79,6 +92,7 @@
       </div>
     </form>
   </main>
+  <!-- 모달창 -->
   <div class="modal">
     <div class="modal_body">
         <button class="closeModal">&times;</button>
@@ -88,6 +102,7 @@
         <button class="reviewbtn2">저장하기</button>
     </div>
 </div>
+<!-- 모달창 -->
   <script src="review_write.js"></script>
 </body>
 </html>
