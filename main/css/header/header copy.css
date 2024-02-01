@@ -21,6 +21,30 @@
     margin-right: 12px;
 }
 
+<<<<<<< HEAD
+/* .back{
+    text-decoration-line:none ;
+    font-weight:bold;
+    font-size: x-large;
+    display: inline-block;
+    float: left;
+    padding: 0px 10px 0px 0px;
+    color: rgb(101, 98, 96);
+    margin-top :0;
+    } */
+/* .menuname{
+    font-weight: bold;
+    font-size: x-large;
+    display: inline;
+    color: rgb(101, 98, 96);
+} */
+.head_img{
+        /* margin: auto; */
+        /* float:right;
+        width : 20px; */
+        /* height: 100; */
+    }
+=======
 .notice{
     display:none;
     font-size: small;
@@ -30,3 +54,4 @@
     border: none;
     border-radius: 15px;
 }
+>>>>>>> 74e4cee9682c08be2a8a12f703474fa28dbcb7a0
