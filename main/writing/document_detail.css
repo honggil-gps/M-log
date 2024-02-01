@@ -2,10 +2,10 @@
     color: rgb(101, 98, 96);
 }
 body{
-    background-color: rgb(251,249,241);
+    background-color: (white);
 }
 header{
-    background-color: rgb(251,249,241);
+    background-color: rgb(white);
 }
 .back{
     text-decoration-line:none ;
@@ -42,7 +42,6 @@ header{
     height: 50px;
     border: none;
     border-radius: 100%;
-    
     }
 .user_profile{
     padding: 10px;
@@ -59,7 +58,7 @@ header{
 }
 .main_contents {
     border-radius: 10px;
-    border: 2px solid rgba(101, 98, 96, 0.5);
+    border: 3px solid rgba(101, 98, 96, 0.5);
     background-color: white;
     min-height: 80vh;
     max-height: 90vh;
@@ -82,7 +81,7 @@ header{
     background-color : white;
 }
 .contents_img{
-    float: left;
+
     margin: 1rem;
     display:inline-block ;
     height: 30vw;
