@@ -2,8 +2,20 @@
 
 
 body{
-  background-color: #fbf9f1;
+    width: 430px;
+  background-color: #fff;
 
+}
+
+body{
+    width: 430px;
+  background-color: #fff;
+
+}
+
+.header{
+    width: 410px;
+    margin: 10px 0px;
 }
 
 .back{
@@ -122,9 +134,50 @@ background-color: white;
 
 
 
+form{
+    margin: 0px auto;
+  }
+  
+  #search{ 
+    display: flex;
+    max-width: 100%;
+    background-color: none;
+    border: none;
+    border-radius: 25px;
+    padding: 20px 60px;
+    background-color: #E5E1DA;
+    /* justify-content: center; */
+    /* width:400px; */
+  }
+  
+  #search_text{
+    /* border: 1px solid rgb(170, 215, 217); */
+    border: 2px solid #434a63;
+    border-radius: 0.5rem;
+    display: flex;
+    width: 317px;
+    height: 35px;
+    margin: 5px 5px 5px 0px;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  
+  #search_img{
+    border: 0.1rem solid #434a63;
+    border-radius: 0.5rem;
+    border-style: solid;
+    max-height: fit-content;
+    width: 24px;
+    height: 24px;
+    margin: 5px 5px 5px 0px;
+    /* filter: opacity(0.9) drop-shadow(0 0 0 #ffffff); */
+    background-color: #434a63;
+    padding: 6px;
+    transform: scaleX(-1); transition: .3s;
 
+  }
 /* 검색창 */
-.club_name_3{
+/* .club_name_3{
     border: 1px solid black;
     padding: 15px 15px;
     border-radius: 25px;
@@ -140,16 +193,16 @@ background-color: white;
     border-radius: 5px;
     justify-content: center;
     width:100%;
-}
+} */
 /* 검색창 입력 부분 */
-#club_name_search_text{
+/* #club_name_search_text{
     border: 1px solid rgb(170, 215, 217);
     border-radius: 0.5rem;
     display: flex;
-    width: 80%;
-}
+    width: 80%; */
+/* } */
 /* 검색창 그림 */
-#club_name_search_img{
+/* #club_name_search_img{
     border: 0.1rem solid rgb(170, 215, 217);
     border-radius: 0.5rem;
     border-style: solid;
@@ -159,13 +212,13 @@ background-color: white;
     background-color: rgb(170, 215, 217);
 }
 /* 검색창 버튼 */
-.club_name_3_butt{
+/* .club_name_3_butt{
     margin-left: 25px;
     border: 2px solid #E5E1DA;
     background-color: #AAD7D9;
     width: 30px;
     height: 30px;
-    }
+    }  */ 
 
 /* 검색창 끝 */
 
