@@ -12,10 +12,11 @@ body{
     "a"
     "a"
     ;
-    grid-gap: 30px;
+    grid-gap: 5vw;
     text-align: center;
     margin: -10px;
     background-color: #fff;
+    
     
     }
     /* 회원가입 제목 */
@@ -23,8 +24,8 @@ body{
         margin: 20px auto;
       font-size: 30px;
       font-weight: bold;
-      width: 220px;
-      height: 70px;
+      width: 31vw;
+      height: 80px;
     }
 /* 중복확인 버튼 스타일  */
 .signin_button{
@@ -41,12 +42,13 @@ body{
         width: 220px;
         padding: 7px 7px;
         display: flex;
-        margin: -10px auto;
+        margin: -5px auto;
         border-radius: 5px;
         border: 2px solid #e5e1Da;
     }
     /* 아이디 입력칸 스타일 */
     .signin_iD_input{
+        margin: 8px;
         width: 155px;
         padding: 7px 7px;
         border: 2px solid #e5e1Da;
@@ -59,12 +61,13 @@ body{
     padding: 7px 7px;
     border: 2px solid #e5e1Da;
     border-radius: 5px;
+
      
 }
 /* 회원가입 버튼 */
     .signin_butt{
     border: 1px solid #e5e1Da;
-    width: 240px;
+    width: 300px;
     background-color: rgb(101, 98, 96);
     text-align: center;
     border-radius: 7px;
@@ -76,3 +79,30 @@ body{
     }
 
   
+
+        
+        @media (min-width: 431px){
+          /* 공통부분 */
+       
+          .signin_iD_input{   
+            width: 256px;
+            margin-left: 2px;
+            
+            }
+        .signin_button{
+            width: 73px;
+        }
+        .signin_input{
+            width: 330px;
+        }
+        .signin_PW_input{
+            width: 330px;
+        }
+        .signin_butt{
+            width: 400px;
+            padding: 15px 15px;
+        }
+
+
+    
+          }
