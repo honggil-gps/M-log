@@ -46,3 +46,32 @@
   padding: 8px 8px ;
   margin: 10px 5px auto;
 }
+
+/* 사이드메뉴 css 시작 */
+/* 개인페이지에 맞게 width, height, top 조절하면 됩니당 */
+
+#sidemenu{
+  position: fixed;
+  width: 189px;
+  height: 400px;
+  top: 23.4%;
+  right: 2%;
+  background-color: #eae8e8;
+  border-radius: 2%;
+}
+
+#sidetitle{
+  text-align: center;
+}
+
+#sidehr{
+  width: 160px;
+  margin-left: 15px;
+}
+
+#sidetext{
+  font-size: 14px;
+  margin-left: 25px;
+}
+
+/* 사이드메뉴 css 끝 */
