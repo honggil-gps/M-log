@@ -1,7 +1,8 @@
 body{
-  width: 430px;
+  /* width: 430px; */
   background-color: #fff;
   margin-left: 11px;
+  /* max-width: 1000px; */
 }
 
 hr{
@@ -33,7 +34,7 @@ form{
   border: 2px solid #434a63;
   border-radius: 0.5rem;
   display: flex;
-  width: 317px;
+  width: 40%;
   height: 35px;
   margin: 5px 5px 5px 0px;
   font-size: 15px;
@@ -65,7 +66,11 @@ form{
 
 /* 나의 무비클럽 가로 슬라이드 */
 
+
+
 #prod-list{
+  display: flex;
+  width: 100%;
   border-radius: 2%;
 }
 
@@ -77,6 +82,8 @@ form{
   filter: brightness(70%);
 }
 
+
+
 #list01{
   display: grid;
   grid-template-columns: repeat(2,auto);
@@ -84,20 +91,20 @@ form{
 
 #listgo1{
   margin-top: 10px;
-  margin-left: 200px;
+  margin-left: 90%;
   color: #747373;
 }
 
 #listgo2{
   margin-top: 10px;
-  margin-left: 170px;
+  margin-left: 90%;
   color: #747373;
 }
 
 
 #listgo3{
   margin-top: 10px;
-  margin-left: 190px;
+  margin-left: 90%;
   color: #747373;
 }
 
@@ -159,7 +166,7 @@ form{
 .mymovie{
   justify-content: center;
   /* background-color: #eae8e8; */
-  width: 410px;
+  /* width: 410px; */
   height: 190px;
   border-radius: 2%;
   margin-bottom: 10px;
@@ -168,7 +175,7 @@ form{
 #list{
   justify-content: center;
   background-color: #eae8e8;
-  width: 410px;
+  /* width: 410px; */
   height: 125px;
   border-radius: 2%;
   padding: 1px 0px 5px 0px;
@@ -180,7 +187,7 @@ form{
 }
 
 #listhr{
-  width: 380px;
+  width: 96%;
   margin: 0px 0px 0px 10px;
 }
 
@@ -207,6 +214,7 @@ form{
   grid-template-columns: repeat(3, auto);
 }
 
+
 /* #headerbg{
   width: 430px;
   height: 30px;
@@ -215,26 +223,36 @@ form{
 } */
 
 header{
+  display: flex;
+  width: 100%;
   position: fixed;
   top: 10px;
   left: 0px;
-  width: 430px;
-  height: 66px;
+  /* width: 430px; */
+  height: 68px;
   margin-top: -12px;
   background-color: white;
-  z-index: 2;
+  z-index: 1;
   padding-top: 2cqh;
 }
 
 
+#noticebell{
+  margin-left: 75%;
+}
+
+
 footer{
+  display: flex;
+  width: 103%;
   position: fixed;
   top: 70px;
   left: -10px;
-  width: 450px;
+  /* width: 450px; */
   height: 80px;
   margin: 0px;
   padding: 0px;
+  z-index: 2;
 }
 
 /* 사이드메뉴 css 시작 */
@@ -242,9 +260,9 @@ footer{
 
 #sidemenu{
   position: fixed;
-  width: 189px;
-  height: 400px;
-  top: 23.4%;
+  width: 25%;
+  height: 380px;
+  top: 227px;
   right: 2%;
   background-color: #eae8e8;
   border-radius: 2%;
@@ -255,7 +273,7 @@ footer{
 }
 
 #sidehr{
-  width: 160px;
+  width: 90%;
   margin-left: 15px;
 }
 
@@ -264,46 +282,76 @@ footer{
   margin-left: 25px;
 }
 
+
 /* 사이드메뉴 css 끝 */
 
-@media (max-width: 430px){
+@media (max-width: 767.5px){
   #sidemenu{
     display: none;
   }
-}
 
-@media (min-width: 768px){
-  /* 공통부분 */
-  header{
-    width: 768px;
-    height: 67px;
-    z-index: 1;
+  /* #prod-list{
+    display: flex;
+    width: 100%;
+  } */
+
+
+
+  #criticgrid{
+    /* max-width: 600px; */
   }
 
 
+
+  .mymovie{
+    /* max-width: 530px; */
+  }
+
+}
+
+@media (min-width: 768px){
+
+  /* 공통부분 */
+  header{
+    /* width: 768px;
+    height: 67px; */
+    z-index: 1;
+  }
+
+  .mymovie{
+    width: 72%;
+  }
+
+  #list{
+    width: 72%;
+  }
+
   footer{
-    top: 7%;
-    width: 784px;
+    /* top: 7%;
+    width: 784px; */
     z-index: 2;
   }
 
   body{
-    margin-left: 2%;
-    margin-top: 20px;
+    /* margin-left: 2%; */
+    /* margin-top: 20px; */
+
   }
+  
 
   /* 여기까지 공통부분 이후 컨텐츠들은 width 각 530px로  */
 
-  #prod-list, #list{
+  /* #prod-list, #list{
     width: 530px;
-  }
+  } */
 
+  
   #criticgrid{
     width: 600px;
   }
 
-  hr{
+  /* hr{
     width: 540px;
-  }
+  } */
 
 }
