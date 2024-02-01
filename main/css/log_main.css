@@ -111,6 +111,11 @@
     object-fit: cover; /* 이미지를 잘라서 비율을 유지하면서 채우기 */
   }
 
+  .crop-round {
+    border-radius: 50%;
+    width:50px;
+  }
+
   #picword_part:hover > div > .picword_title{
     text-decoration: underline;
   }
@@ -118,3 +123,82 @@
   #picword_part:hover{
     cursor: pointer;
   }
+
+  #sidemenu{
+    display:none;
+  }
+  
+  @media screen and (min-width: 767px) {
+
+    /* form 크기조절 & 위치조정 퍼센트로 조정, 본인컨텐츠 필요한대로 조절하세욥*/
+  #review-list{
+    width: 75%;
+  position:absolute;
+  left:10px;
+  }
+    /* 사이드메뉴 */
+    #sidemenu{
+      display:block;
+      position: fixed;
+      width: 25%; /* 사이드메뉴 너비 퍼센트조정 */
+      max-width: 350px;
+      height: 500px;
+      top: 25%;
+      right: 2%;
+      background-color: #eae8e8;
+      border-radius: 2%;
+    }
+    /* 그리드 박스 */
+    .grid-container {
+      margin:10px;
+      display: grid;
+      grid-template-columns: 60px 2fr;
+    }
+    .grid-item {
+      white-space: nowrap;
+      font-size: 12px;
+      margin: 2px;
+      /* justify-self: center; */
+      /* align-self: center; */
+      /* background-color: #ccc; */
+      padding: 5px;
+      text-align: left;
+      display: -webkit-box;
+    -webkit-line-clamp: 1; /* 보여질 라인 수 */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    }
+
+    .grid-item-2 {
+      grid-row: span 2;
+      /* justify-self: center; */
+      /* align-self: center; */
+    }
+
+    .grid-container > :nth-child(2) {
+      grid-column: span 1; /* 두 번째 열의 크기를 1로 설정 (기본값은 1fr) */
+    }
+    /* 그리드 끝 */
+    /* 사이드바 제목 */
+    #sidetitle{
+      text-align: center;
+    }
+    
+    #sidehr{
+      width: 90%;
+      margin-left: 15px;
+    }
+    /* 사이드바 안의 텍스트 */
+    #sidetext{
+      text-align: left;
+      font-size: 14px;
+      padding: 3px;
+    }
+
+    #sidetext_comment{
+      text-align: left;
+      font-size: 12px;
+
+    }
+    /* 사이드메뉴 css 끝 */
+    }

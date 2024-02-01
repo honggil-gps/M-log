@@ -263,6 +263,7 @@ footer{
   background-color: #eae8e8;
   border-radius: 2%;
 }
+/* sidebar안의 컨텐츠 */
 .inline{
   margin: 10px auto;
   border: 1px solid #5f5b5b;
@@ -273,13 +274,12 @@ footer{
   display:flex;
   padding: 10px 10%;
 }
-
-
+/* side바 안의 이미지 */
 .inline > img {
   position: absolute;
   right:15%;
 }
-
+/* 사이드바 제목 */
 #sidetitle{
   text-align: center;
 }
@@ -288,7 +288,7 @@ footer{
   width: 90%;
   margin-left: 15px;
 }
-
+/* 사이드바 안의 텍스트 */
 #sidetext{
   display: -webkit-box;
     -webkit-line-clamp: 1; /* 보여질 라인 수 */
