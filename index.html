@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="main/css/card/card.css">
     <link rel="stylesheet" href="main/css/header/header.css">
     <link rel="stylesheet" href="main/css/navbar/navbar.css">
+    <link rel="stylesheet" href="main/css/club_main.css">
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <title>무비로그 (MLOG)</title>
 </head>
@@ -31,10 +32,10 @@
         <source src="https://adimg.cgv.co.kr/images/202401/Atom/0123_Atom_main_1080x608.mp4" type="video/mp4">
       </video>
   
-      <div class="video_text">
+      <!-- <div class="video_text">
         <p id="vt1">아톰 새로운 시작<br></p>
         <p id="vt2">더욱 강력하고 새로워진<br>2024년 NEW 우주소년 아톰의 탄생</p>
-      </div>
+      </div> -->
 </div>
 
   <!-- 탭메뉴 이름 -->
@@ -257,21 +258,79 @@
       </div>
     </div>
   </div>
+  <br>
   <!-- <hr> -->
 
   <!-- 광고탭1 -->
-  <div class="adtab">
-    <a href="main/hot_hashtags/hot_hashtags.html"><img id="adimg1" src="img/index01.jpg"></a>
-    <h1 class="adtext1">화제의 #</h1>
-    <a href="main/movieclub/club_name/club_name.html"><img id="adimg2" src="img/index02.jpg"></a>
-    <center><h1 class="adtext2">이번 주 인기<br>무비클럽</h1></center>
-    <a href="main/writing/writing_name/doc1_musicclub.html"><img id="adimg3" src="img/index03.jpg"></a>
-    <center><h1 class="adtext3">무비로그 선정<br>피와 살이되는 게시글</h1></center>
 
+    <!-- 나의 무비클럽 -->
+    <p id="subtitle">🔥HOT <b style="color: rgb(94, 122, 155);">4</b></p>
+    <!-- <div id="mymovie"></div> -->
+  <div>
+      <div id="container" class="hot">
+        <ul id="prod-list" class="prod-list">
+          <a href="../club_name/club_music.html">
+            <li class="club-wrap">
+              <div class="club-image"><img src="img/index01.jpg"></div>
+              <div class="club-text">
+                <b><p id="ct1" style="font-size: 17px;">화제의 해시태그 #</p></b><br>
+                <p>지금 가장 핫한 해시태그</p>
+                <p>지금 바로 확인하세요!</p>
+              </div>
+            </li>
+          </a>
     
+          <a href="../club_name/club_SFclub.html">
+            <li class="club-wrap">
+              <div class="club-image"><img src="img/index02.jpg"></div>
+              <div class="club-text">
+                <b><p id="ct1" style="font-size: 17px;">이번주 인기 무비클럽</p></b><br>
+                <p>이번주에 가장 가입자가 많은 무비클럽</p>
+                <p>정원이 다 차기전에 서둘러 가입하세요!</p>
+              </div>
+            </li>
+          </a>
+    
+          <li class="club-wrap">
+            <div class="club-image"><img src="img/index03.jpg"></div>
+            <div class="club-text">
+              <b><p id="ct1" style="font-size: 17px;">피와 살이 되는 게시글</p></b><br>
+              <p>유명 평론가부터 인기 유저까지</p>
+              <p>피와 살이될만큼 유익한 게시글을 모아봤어요</p>
+            </div>
+          </li>
+    
+          <li class="club-wrap">
+            <div class="club-image"><img src="img/index04.jpg"></div>
+            <div class="club-text">
+              <b><p id="ct1" style="font-size: 17px;">친구초대하기</p></b><br>
+              <p>함께 영화를 보고 싶은 사람에게</p>
+              <p>무비로그를 알려주세요</p>
+            </div>
+          </li>
 
-    
-</div>
+          <li class="club-wrap">
+            <div class="club-image"><img src="img/index05.jpg"></div>
+            <div class="club-text">
+              <b><p id="ct1" style="font-size: 17px;">이번달 영화관 이벤트</p></b><br>
+              <p>이번달에 진행되는</p>
+              <p>다양한 이벤트를 확인하세요</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+
+
+    <!-- <div class="adtab">
+      <a href="main/hot_hashtags/hot_hashtags.html"><img id="adimg1" src="img/index01.jpg"></a>
+      <h1 class="adtext1">화제의 #</h1>
+      <a href="main/movieclub/club_name/club_name.html"><img id="adimg2" src="img/index02.jpg"></a>
+      <center><h1 class="adtext2">이번 주 인기<br>무비클럽</h1></center>
+      <a href="main/writing/writing_name/doc1_musicclub.html"><img id="adimg3" src="img/index03.jpg"></a>
+      <center><h1 class="adtext3">무비로그 선정<br>피와 살이되는 게시글</h1></center>
+    </div> -->
+
 
 <!-- <img id="adimg3" src="img/index03.jpg">
     <center><h1 class="adtext3">무비로그 선정<br>피와 살이되는 게시글</h1></center> -->
