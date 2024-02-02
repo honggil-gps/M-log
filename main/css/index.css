@@ -2,10 +2,10 @@ body{
 	line-height: 1.6;
 }
 
-#noticebell{
-  /* margin-left: 75%; */
+aside{
+  margin-right: 3%;
+  margin-top: -6px;
 }
-
 
 #video{
   display: flex;
@@ -179,8 +179,8 @@ ul.tabs li.current{
   font-size: 18px;
   position: absolute;
   text-align: center;
-  top: 70px;
-  left: 100px;
+  top: 233px;
+  left: 220px;
   transform: translate( -50%, -50% );
   color: white;
 }
@@ -196,70 +196,26 @@ header{
   top: 10px;
   left: 0px;
   /* width: 430px; */
-  height: 67px;
-  margin-top: -10px;
+  height: 69px;
+  margin-top: -15px;
   background-color: white;
-  z-index: 2;
-  padding-top: 10px;
+  z-index: 1;
+  padding-top: 2cqh;
 }
+
 
 
 footer{
   display: flex;
   width: 100%;
+  min-width: 450px;
   position: fixed;
   top: 70px;
   left: -8px;
   /* width: 430px; */
-  height: 80px;
+  height: 155px;
   margin: 0px;
   padding: 0px;
+  z-index: 2;
 }
 
-
-
-/* @media (min-width: 768px) {
-  header{
-    width: 768px;
-    height: 5rem;
-  }
-
-  #head_logo{
-    
-  }
-
-  footer{
-    width: 768px;
-    height: 5rem;
-    top: 10%;
-  }
-
-  #video{
-    width: 768px;
-    margin-top: 10.625rem;
-  }
-
-  #vt1{
-    font-size: 1.875rem;
-    margin-top: 0rem;
-  }
-
-  #vt2{
-    font-size: 1.25rem;
-  }
-
-  #menutitle{
-    width: 8.125rem;
-    height: 1.875rem;
-    font-size: 1.25rem;
-    padding-left: 3.25rem;
-  }
-
-  #tab-1, #tab-2{
-    width: 48rem;
-  }
-
-
-  }
-
-} */

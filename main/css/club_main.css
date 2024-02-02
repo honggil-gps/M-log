@@ -20,7 +20,7 @@ form{
 #search{ 
   display: flex;
   margin-top: 55px;
-  max-width: 100%;
+  width: 100%;
   background-color: none;
   border: none;
   border-radius: 5px;
@@ -164,6 +164,8 @@ form{
 
 .mymovie{
   justify-content: center;
+  margin-left: -10px ;
+  width: 99.8%;
   /* background-color: #eae8e8; */
   /* width: 410px; */
   height: 190px;
@@ -225,11 +227,11 @@ header{
   display: flex;
   width: 100%;
   position: fixed;
-  top: 10px;
+  /* top: 10px; */
   left: 0px;
   /* width: 430px; */
   height: 68px;
-  margin-top: -12px;
+  margin-top: -14px;
   background-color: white;
   z-index: 1;
   padding-top: 2cqh;
@@ -247,8 +249,7 @@ footer{
   position: fixed;
   top: 70px;
   left: -10px;
-  /* width: 450px; */
-  height: 80px;
+  height: 155px;
   margin: 0px;
   padding: 0px;
   z-index: 2;
@@ -256,6 +257,12 @@ footer{
 
 /* 사이드메뉴 css 시작 */
 /* 개인페이지에 맞게 width, height, top 조절하면 됩니당 */
+.crop-img {
+  width:70px; /* 원하는 가로 크기 */
+  height: 50px; /* 원하는 세로 크기 */
+  object-fit: cover; /* 이미지를 잘라서 비율을 유지하면서 채우기 */
+  margin-left: 10px;
+}
 
 #sidemenu{
   position: fixed;
@@ -265,6 +272,7 @@ footer{
   right: 2%;
   background-color: #eae8e8;
   border-radius: 2%;
+  overflow: scroll;
 }
 
 #sidetitle{
@@ -276,13 +284,47 @@ footer{
   margin-left: 15px;
 }
 
-#sidetext{
+/* #sidetext{
   font-size: 14px;
   margin-left: 25px;
+} */
+
+#sidetext{
+  margin-left: 40%; 
+  margin-top: 0px;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; 보여질 라인 수
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 12px;
+  padding: 3px;
+
+}
+
+/* sidebar안의 컨텐츠 */
+.inline{
+  margin: 10px auto;
+  border: 1px solid #5f5b5b;
+  border-radius: 5px;
+  text-align: center;
+  box-sizing: border-box;
+  width: 90%;
+  height: 65px;
+  display:flex;
+  padding: 10px 15px 0px;
+}
+/* side바 안의 이미지 */
+.inline > img {
+  position: absolute;
+  left:4%;
+  margin-top: -3px;
 }
 
 
+
 /* 사이드메뉴 css 끝 */
+
+
 
 @media (max-width: 767.5px){
   #sidemenu{
