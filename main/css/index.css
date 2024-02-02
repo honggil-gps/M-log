@@ -9,10 +9,12 @@ aside{
 
 #video{
   display: flex;
-  width: 100%;
+  width: 104%;
+  /* max-width: 1024px; */
   /* width: 26.875rem; */
   margin-top: 125px;
   filter: brightness(50%);
+  margin-left: -15px;
 }
 
 .video_text { 
@@ -104,13 +106,13 @@ ul.tabs li.current{
 }
 
 
-#ad1, #ad2{
+/* #ad1, #ad2{
   width: 203px;
   height: 150px;
   background-color: #ededed;
-  /* margin: 15px 10px 10px 0px; */
+  margin: 15px 10px 10px 0px;
   border-radius: 2%;
-}
+} */
 
 #adimg1{
   width: 204px;
@@ -134,7 +136,7 @@ ul.tabs li.current{
   width: 413px;
   height: 150px;
   background-color: #ededed;
-  /* margin: 0px 15px 20px 6px; */
+  margin: 0px 15px 20px 6px;
   margin: 5px 5px 5px 5px;
   border-radius: 2%;
   opacity: 0.8;
@@ -152,9 +154,17 @@ ul.tabs li.current{
 
 .adtab {
   display: flex;
+  /* flex-grow: 1; */
+  /* width: 100%; */
+  justify-content: space-around;
   position: relative;
   flex-wrap: wrap;
+
 }
+
+/* .adtab>h1{
+  text-align: center;
+} */
 
 .adtext1 {
   font-size: 18px;
@@ -218,4 +228,13 @@ footer{
   padding: 0px;
   z-index: 2;
 }
+
+@media (max-width: 429px){
+  #video{
+    display: flex;
+    width: 90%;
+  }
+}
+
+
 
