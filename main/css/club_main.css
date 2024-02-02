@@ -223,19 +223,19 @@ form{
   background-color: white;
 } */
 
-header{
+/* header{
   display: flex;
   width: 100%;
   position: fixed;
-  /* top: 10px; */
+  top: 10px;
   left: 0px;
-  /* width: 430px; */
+  width: 430px;
   height: 68px;
   margin-top: -14px;
   background-color: white;
   z-index: 1;
   padding-top: 2cqh;
-}
+} */
 
 
 #noticebell{
@@ -243,7 +243,7 @@ header{
 }
 
 
-footer{
+/* footer{
   display: flex;
   width: 103%;
   position: fixed;
@@ -253,7 +253,7 @@ footer{
   margin: 0px;
   padding: 0px;
   z-index: 2;
-}
+} */
 
 /* 사이드메뉴 css 시작 */
 /* 개인페이지에 맞게 width, height, top 조절하면 됩니당 */
@@ -396,4 +396,28 @@ footer{
     width: 540px;
   } */
 
+}
+
+.header{
+  display:flex;
+  position: fixed;
+  top: 10px;
+  left: 0px;
+  width: 100%;
+  height: 68px;
+  margin-top: -10px;
+  background-color: white;
+  z-index: 2;
+  padding-top: 10px;
+}
+
+.footer{
+  display: flex;
+  width: 100%;
+  position: fixed;
+  top: 70px;
+  left: 0px;
+  width: 100%;
+  margin: 0px;
+  padding:0px;
 }
