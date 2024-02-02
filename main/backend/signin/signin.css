@@ -14,14 +14,26 @@ body{
     ;
     grid-gap: 5vw;
     text-align: center;
-    margin: -10px;
+    margin: -20px;
     background-color: #fff;
-    
-    
     }
+
+    .back{
+        text-decoration-line:none ;
+        font-weight:bold;
+        font-size: 20px;
+        float: left;
+        color: rgb(101, 98, 96);
+        position: relative;
+        top: 20px;
+        left: 10px;
+        margin: 5px; 
+        }
+
+
     /* 회원가입 제목 */
 .signin_title{
-        margin: 20px auto;
+        margin: -20px auto;
       font-size: 30px;
       font-weight: bold;
       width: 31vw;
@@ -81,31 +93,74 @@ body{
   
 
         
-        @media (min-width: 431px){
+        @media (min-width: 430px){
           /* 공통부분 */
-       
+          .signin_title{
+          position: relative;
+          top: 20px;
+        }
+
+        .signin_input{
+            width: 220px;
+            padding: 7px 7px;
+            display: flex;
+            margin: -5px auto;
+            border-radius: 5px;
+            position: relative;
+            top: 25px;
+            border: 2px solid #e5e1Da;
+        }
+
+
+
+
+
           .signin_iD_input{   
             width: 256px;
             margin-left: 2px;
-            
+            position: relative;
+            top: 25px;
+       
             }
         .signin_button{
             width: 73px;
+            position: relative;
+            top: 25px;
+       
         }
         .signin_input{
             width: 330px;
+          
+       
         }
         .signin_PW_input{
             width: 330px;
+            position: relative;
+            top: 25px;
         }
         .signin_butt{
             width: 400px;
             padding: 15px 15px;
+            position: relative;
+            top: 23px;
+        }
+
+        
+    }
+
+
+
+        @media (max-width: 432px){
+
+            .back{
+               font-size: 15px;
+            }
+       
         }
 
 
     
-          }
+          
           .toastMessage {
             display: none;
             position: fixed;
