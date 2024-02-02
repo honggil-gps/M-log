@@ -3,13 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>로그인</title>
+    <title>회원가입</title>
     <link rel="stylesheet" href="../signin/signin.css">
+    <script src="signin.js"></script>
+    <style>
+    </style>
 </head>
 <body>
 
 <!-- YJ(양지은)_signin html 파일 시작 -->
 <div id="signin">
+
+    <div>
+        <a class="back" href="../login/login.html">&lt;</a> 
+            <div class="back">로그인</div>
+        <!-- <img src="../../css/header/img/noticebell_colorchanged.png" id = "notecebell" class = "head_img"> -->
+    </div>
+
 <!-- 무비로그 배너 -->
     <div>
     <img class="signin_title" src="../img/signin01.png" alt="">
@@ -28,11 +38,12 @@
     </div>
 <!-- 회원가입 버튼 -->
     <div>
-        <button type="button" class="signin_butt">signin</button>
+        <button type="button" class="signin_butt" onclick="showToast()">signin</button>
     </div>
 
-
 </div>
+
+<div id="toastMessage" class="toastMessage">회원가입이 완료되었습니다!</div>
 <!-- YJ(양지은)_signin html 파일 끝 -->
 </body>
 
