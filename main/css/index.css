@@ -1,11 +1,11 @@
 body{
 	line-height: 1.6;
 }
-
+/* 
 aside{
   margin-right: 3%;
   margin-top: -6px;
-}
+} */
 
 #video{
   display: flex;
