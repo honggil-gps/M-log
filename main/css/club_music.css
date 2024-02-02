@@ -1,0 +1,362 @@
+
+body{
+   width: 430px;
+  background-color: #fff;
+  padding: 10px 10px;
+
+}
+
+
+/* 뒤로 가기 버튼 */
+.back{
+    text-decoration-line:none ;
+    font-weight:bold;
+    font-size: x-large;
+    display: inline-block;
+    float: none;
+    padding: 0px 10px 0px 0px;
+    color: rgb(101, 98, 96);
+    margin-top :0;
+    }
+
+/* 클럽 네임 전 구역 */
+#club_name{
+
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas: 
+    "a"
+    "b"
+    "c"
+    "d"
+    "e"
+    "f";
+    padding: 10px 10px;
+    
+}
+
+/* 상단 무비클럽 로고 */
+.club_name_img{
+ 
+    width: 40%;
+    margin: 5px auto;
+}
+
+/* 클럽 이름 칸 */
+.club_music_name{
+    padding: 10px 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-image: url(../club_main/img/club01.jpg);
+    background-size: cover;
+    height: 30VW;
+}
+/* 클럽 네임 위의 아이콘 연속 두개 스타일,배치 (종 2개) */
+.club_name_1_icon{
+float: right;
+width: 22px;
+margin-left: 10px;
+}
+
+/* 무비클럽 메인 (과학기술) 글자 스타일, 배치 */
+.club_name_title{
+font-size: 20px;
+font-weight: bold;
+background-color: white;
+border-bottom-left-radius: 15px;
+border-bottom-right-radius: 15px;
+margin-top: -70px;
+background-color:#eae8e8;
+}
+/* 공개/비공개 */
+#club_name_title1{
+    font-size: 10px;
+    float: right;
+    margin-top: -20px;
+}
+
+
+
+
+
+
+
+/* 클럽 공지칸 */
+.club_name_2{
+    padding: 10px 17px;
+    border-radius: 25px;
+    background-color: #eae8e8;
+}
+/* 클럽 공지 글자와 아이콘 스타일,배치 */
+.club_name_2_infor{
+font-weight: bold;
+
+}
+/* 클럽 공지 구역 안 글자 */
+.club_name_notice{
+font-size: 12px;
+}
+/* 클럽 공지 "진행중" 스타일 */
+.club_name_notice1{
+font-size: 8px;
+position: relative;
+top: -2px;
+border: 1px solid red;
+border-radius: 5px;
+padding: 2px 2px;
+background-color: white;
+}
+
+
+
+
+/* 검색창*/
+form{
+    margin: 0px auto;
+  }
+  
+  #search{ 
+    display: flex;
+    max-width: 100%;
+    background-color: none;
+    border: none;
+    border-radius: 25px;
+    padding: 20px 60px;
+    background-color: #eae8e8;
+    /* justify-content: center; */
+    /* width:400px; */
+  }
+  
+  #search_text{
+    /* border: 1px solid rgb(170, 215, 217); */
+    border: 2px solid #434a63;
+    border-radius: 0.5rem;
+    display: flex;
+    width: 317px;
+    height: 35px;
+    margin: 5px 5px 5px 0px;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  
+  #search_img{
+    border: 0.1rem solid #434a63;
+    border-radius: 0.5rem;
+    border-style: solid;
+    max-height: fit-content;
+    width: 24px;
+    height: 24px;
+    margin: 5px 5px 5px 0px;
+    /* filter: opacity(0.9) drop-shadow(0 0 0 #ffffff); */
+    background-color: #434a63;
+    padding: 6px;
+    transform: scaleX(-1); transition: .3s;
+
+  }
+/* 검색창 끝 */
+
+
+
+
+
+
+
+/* 페이지 끝 영화 목록 */
+#club_name4_part{
+    background-color: #eae8e8;
+    font-size: 15px;
+    display: flex;
+    border-radius: 8px;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+
+    }
+/* 영화 제목 스타일 */
+    .club_main4_title{
+      font-weight: bold;
+      font-size: 20px;
+ 
+    }
+    /* 영화 제목 링크 밑줄 지우는 구역 */
+    #club_name_a{
+    text-decoration: none;
+    color: black;
+
+    }
+/* 영화 목록 사진 */
+    .club_name4_img{
+      width: 22vw;
+      height: 12vw;
+      border-radius: 5px;
+
+      }
+ 
+
+
+
+
+
+
+
+
+/* 사진들 스타일 구역 */
+/* 아이콘 사진*/
+img{
+    width: 20px;
+    position: relative;
+    top: 4px;
+
+}
+
+/* 무비 클럽 메인 타이틀 사진 */
+
+
+
+/* 사이드바 */
+
+#sidemenu{
+  position: fixed;
+  width: 350px;
+  height: 500px;
+  top: 8%;
+  left: 69%;
+  background-color: #eae8e8;
+  border-radius: 2%;
+}
+
+#sidetitle{
+  text-align: center;
+margin-top: 30px;
+}
+
+#sidehr{
+  width: 160px;
+  margin: 0px auto ;
+}
+
+#sidetext{
+width: 80%;
+margin: 25px auto;
+}
+.club_name_11{
+  font-size: 14px;
+  padding: 12px 12px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 15px 15px;
+  background-size: cover;
+  margin: 0px auto;
+  margin-top: -5px;
+}
+
+#list{
+display: grid;
+grid-template-areas: "a a";
+justify-content: space-around;
+align-items: center;
+}
+#li_img{
+  width: 60px;
+  height: 60px;
+  margin-top: -10px;
+
+}
+
+
+.club_name_12{
+  font-size: 14px;
+  padding: 12px 12px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-image: url(../club_name/img/club_name02.jpg);
+  background-size: cover;
+  margin: 5% auto;
+}
+
+.club_name_13{
+  font-size: 14px;
+  padding: 12px 12px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-image: url(../club_name/img/club_name03.jpg);
+  background-size: cover;
+  margin: 5% auto;
+}
+
+
+.club_name_14{
+  font-size: 14px;
+  padding: 12px 12px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-image: url(../club_name/img/club_name04.jpg);
+  background-size: cover;
+  margin: 5% auto;
+ 
+}
+
+.club_name_15{
+  font-size: 14px;
+  padding: 12px 12px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-image: url(../club_name/img/club_name05.jpg);
+  background-size: cover;
+  margin: 5% auto; 
+}
+
+
+.club_name_title11{
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 15px;
+  background-color:white;
+  text-align: center;
+  padding: 10px 10px;
+  margin-top: 1vw auto;
+
+}
+.club_name_title{
+  font-size: 17px;
+}
+#sidehr{
+border-bottom: #434a63;
+width: 250px;
+text-align: center;
+
+}
+
+/* 사이드메뉴 css 끝 */
+
+@media (max-width: 600px){
+
+  #sidemenu{
+  display: inline-block;
+    margin-left: 430px;
+
+  }}
+  
+  @media (min-width: 768px){
+    /* 공통부분 */
+    #club_name{
+      width: 60vw;
+      height: 70vw;
+      z-index: 3;
+    }
+   
+    
+    
+  
+    body{
+      margin-left: 2%;
+      margin-top: 50px;
+    }
+  
+  
+  }
+
+  
+
+
+
