@@ -1,6 +1,6 @@
 
 body{
-   width: 430px;
+  width: 100%;
   background-color: #fff;
   padding: 10px 10px;
 
@@ -21,7 +21,7 @@ body{
 
 /* 클럽 네임 전 구역 */
 #club_name{
-
+   
     display: grid;
     grid-gap: 20px;
     grid-template-areas: 
@@ -32,6 +32,7 @@ body{
     "e"
     "f";
     padding: 10px 10px;
+    
     
 }
 
