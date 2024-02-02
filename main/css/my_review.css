@@ -23,18 +23,18 @@ body{
 }
 
 /* 작성한 영화리뷰 */
-#review > h4{
+#review2 > h4{
   margin: 10px 0px;
   text-align: left;
   display: inline-block;
 }
-#review > p{
+#review2 > p{
   display: inline-block;
   float: right;
   font-size: small;
   text-align: right;
 }
-#review button{
+#review2 button{
   font-weight: bold;
   color: white;
   background-color: rgb(101, 98, 96);
@@ -242,7 +242,7 @@ textarea{
 @media screen and (min-width: 767px) {
 
 /* form 크기조절 & 위치조정 퍼센트로 조정, 본인컨텐츠 필요한대로 조절하세욥*/
-#review{
+#review2{
   width: 70%;
   position:absolute;
   left:10px;
