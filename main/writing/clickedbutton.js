@@ -46,3 +46,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var likeBtn = document.querySelector(".like-btn");
     likeBtn.addEventListener("click", likeButtonClick);
 });
+
+  function goBack() {
+    window.history.back();
+  }
