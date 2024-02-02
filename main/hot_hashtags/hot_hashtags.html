@@ -6,8 +6,7 @@
     <title>hot_hashtags</title>
     <link rel="stylesheet" href="../hot_hashtags/hot_hashtag.css">
     <link rel="stylesheet" href="../css/header/header.css">
-    <link rel="stylesheet" href="../css/header/header copy.css">
-    <link rel="stylesheet" href="../css/header/header.css">
+    <!-- <link rel="stylesheet" href="../css/header/header copy.css"> -->
     <link rel="stylesheet" href="../css/document_detail.css">
     <style>
         @media (min-width: 768px){
@@ -23,25 +22,30 @@
         background-color: #eae8e8;
         border-radius: 2%;
         }
+        .side-bar{
+            position: absolute;
+            top:10px;
+        }
      }
     </style>
 </head>
 <header>
-    <header>
-        <div id = "head_logo">
-        </div>
-        <div>
-            <a class="back" href="../my_profile/my_profile.html">&lt;</a>
-            <p class="menuname">뒤로 가기</p>
-            <aside class="side-bar"><!--사이드바 알림-->
-                <img src="../css/header/img/noticebell_colorchanged.png" id = "notecebell" class = "head_img">
-                    <ul>
-                        <li>[빌런이 좋아]클럽에서 새로운 게시글이 올라왔습니다</li>
-                        <li>달팽이님이 당신을 팔로우하였습니다</li>
-                        <li>팔로우한 친구가 새로운 게시글을 작성했습니다.</li>
-                    </ul>
-        </div>
-        </header>
+    <div id = "head_logo">
+    </div>
+    <!--사이드바 알림창-->
+    <aside class="side-bar">
+        <br>
+        <img src="../css/header/img/noticebell_colorchanged.png" id = "notecebell" class = "head_img">
+            <ul>
+              <li>[빌런이 좋아]클럽에서 새로운 게시글이 올라왔습니다</li>
+              <li>달팽이님이 당신을 팔로우하였습니다</li>
+              <li>팔로우한 친구가 새로운 게시글을 작성하였습니다</li>
+            </ul>
+    </aside>
+    <!-- 알림창 끝 -->
+    <a class="back" href="javascript:history.back()">&lt;</a><!-- 뒤로가기 버튼 -->
+    <p class="menuname">뒤로가기</p><!-- 페이지제목 -->
+</header>
 <body>
     <div id="sidemenu" style="@media (min-width: 768px){top: 10%;}">
         <p id="sidetitle">조회수 200+ 해시태그🔥</p>

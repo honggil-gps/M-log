@@ -5,11 +5,10 @@ body{
 .back{
   text-decoration-line:none ;
   font-weight:bold;
-  font-size: large;
-  display: inline-block;
+  font-size: x-large;
   float: left;
   padding: 0px 10px 0px 0px;
-  color: black;
+  margin-top :0;
 }
 
 /* 베이지박스 */
