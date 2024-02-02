@@ -262,6 +262,7 @@ footer{
   height: 50px; /* 원하는 세로 크기 */
   object-fit: cover; /* 이미지를 잘라서 비율을 유지하면서 채우기 */
   margin-left: 10px;
+  border-radius: 10%;
 }
 
 #sidemenu{
@@ -293,7 +294,7 @@ footer{
   margin-left: 40%; 
   margin-top: 0px;
   display: -webkit-box;
-  -webkit-line-clamp: 1; 보여질 라인 수
+  -webkit-line-clamp: 1; /*보여질 라인 수*/
   -webkit-box-orient: vertical;
   overflow: hidden;
   font-size: 12px;
