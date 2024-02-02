@@ -1,7 +1,10 @@
+html{
+  height: auto;
+}
 /* 검색창 슬라이드 */
 #search{ 
   display: flex;
-  margin-top: 10px;
+  margin-top: 150px;
   max-width: 100%;
   background-color: none;
   border: none;
@@ -40,7 +43,7 @@
 .hashtags{
   display:flex;
   flex-wrap: wrap;
-  margin: 6px auto;
+  margin: 20px auto;
 }
 .hashtags a{
   color: #434a63;
@@ -51,7 +54,10 @@
   border-radius: 15px;
   font-size: small;
 }
-
+.hashtags > a:hover{
+  background-color: #434a63;
+  color:white;
+}
 /* 리뷰보러가기 */
 #picword_part{
   border-bottom: 2px solid #E5E1DA;
@@ -132,7 +138,7 @@
 
     /* form 크기조절 & 위치조정 퍼센트로 조정, 본인컨텐츠 필요한대로 조절하세욥*/
   #review-list{
-    width: 75%;
+  width: 75%;
   position:absolute;
   left:10px;
   }
@@ -143,7 +149,7 @@
       width: 25%; /* 사이드메뉴 너비 퍼센트조정 */
       max-width: 350px;
       height: 500px;
-      top: 25%;
+      top: 30%;
       right: 2%;
       background-color: #eae8e8;
       border-radius: 2%;

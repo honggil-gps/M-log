@@ -5,11 +5,10 @@ body{
 .back{
   text-decoration-line:none ;
   font-weight:bold;
-  font-size: large;
-  display: inline-block;
+  font-size: x-large;
   float: left;
   padding: 0px 10px 0px 0px;
-  color: black;
+  margin-top :0;
 }
 
 /* 베이지박스 */
@@ -250,13 +249,13 @@ textarea{
 #movieList{
   width: 70%;
   position:absolute;
-  top: 293px;
+  top: 310px;
   left:10px;
 }
 #reviewList{
   width: 70%;
   position:absolute;
-  top: 650px;
+  top: 665px;
   left:10px;
 }
 /* 사이드메뉴 */

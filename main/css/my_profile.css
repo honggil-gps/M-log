@@ -83,6 +83,10 @@ main{
   width: 50%;
   height: 40px;
 }
+#review button:hover{
+  cursor: pointer;
+  background-color: rgb(62, 60, 58);
+}
 /* 나의 무비클럽 가로 슬라이드 */
 #prod-list{
   margin: 10px auto;
